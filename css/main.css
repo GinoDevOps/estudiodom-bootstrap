@@ -4,7 +4,6 @@
 
 body {
   background-color: #3A3030;
-  overflow-x:hidden;
 }
 
 .fondopers {
@@ -13,7 +12,7 @@ body {
 /*SEPARADORES*/
 .separador {
   display:flex;
-  height: 12vh;
+  height: 8vh;
   width:auto;
 }
 .separadorchico {
