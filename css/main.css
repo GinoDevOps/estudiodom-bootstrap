@@ -1,9 +1,12 @@
 * {
   font-family: 'Montserrat', sans-serif;
 }
+
 body {
   background-color: #3A3030;
+  overflow-x:hidden;
 }
+
 .fondopers {
   background-color: #FFEBCD;
 }
@@ -11,10 +14,12 @@ body {
 .separador {
   display:flex;
   height: 12vh;
+  width:auto;
 }
 .separadorchico {
   display:flex;
   height: 7vh;
+  width:auto;
 }
 
 /* ICONOS REDES SOCIALES PIE DE PAGINA */
@@ -379,9 +384,6 @@ color: #dd31dd;
   border: 0;
 }
 
-.pricing-header {
-  max-width: 700px;
-}
 
 .b-example-divider {
   height: 3rem;
@@ -439,6 +441,5 @@ color: #dd31dd;
     display: flex;
     writing-mode: vertical-rl;
     justify-content: center;
-    font-size: small;
   }
 }
