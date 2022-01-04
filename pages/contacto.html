@@ -88,10 +88,26 @@
     <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="btn-group d-flex" role="group" aria-label="Basic checkbox toggle button group">
         <input type="reset" class="btn-check" id="btncheck1" autocomplete="off">
         <label class="btn btn-outline-primary" for="btncheck1">Reset</label>
-        <input type="submit" class="btn-check" id="btncheck2" autocomplete="off">
-        <label class="btn btn-outline-primary" for="btncheck2">Enviar</label>
+        <input type="button" class="btn-check" id="btncheck2" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btncheck2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Enviar</label>
     </div>
+    <!-- Button trigger modal -->
+
+<!-- Modal -->
   </form>
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content rounded-4 shadow">
+        <div class="modal-body p-4 text-center text-dark">
+          <h5 class="mb-0">¡Muchas gracias por contactarnos!</h5>
+          <p class="mb-0">En breve nos comunicaremos contigo para iniciar tu nuevo proyecto.</p>
+        </div>
+        <div class="modal-footer flex-nowrap p-0">
+          <a href="../index.html" class="btn btn-outline-primary btn-lg my-1 d-flex justify-content-center">Volver al inicio.</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="text-center text-white mt-3">
   <h1 class="display-2 fw-normal mt-5">PLANES A TU MEDIDA</h1>
