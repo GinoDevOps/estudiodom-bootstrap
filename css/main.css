@@ -50,16 +50,6 @@ body {
 }
 /****************** blog.html ********************/
 
-.blog__titulo {
-  font-size: 2.5rem;
-}
-.blog__grid {
-  display: grid;
-  place-items: center;
-  height: auto;
-  background-color: #0082e6;
-}
-
 .blog__imagen--articulo1 {
   height: 40vh;
   width: 100%;
@@ -90,105 +80,7 @@ body {
   background-image: url("../img/redes.jfif");
 }
 
-.blog__articulo {
-  width: 95%;
-  margin: 1rem;
-  display: flex;
-  flex-direction: column;
-  background: #3A3030;
-  color: #FFEBCD;
-  padding: 1rem;
-}
-.blog__articulo {
-  text-align: justify;
-}
-.blog__articulo h2 {
-  text-align:center;
-}
 
-/****************** servicios.html y nosotros.html ********************/
-.general__titulo {
-  font-size: 2.5rem;
-}
-.general__grid {
-  display: grid;
-  place-items: center;
-  height: auto;
-  background-color: #0082e6;
-}
-
-.general__imagen--articulo1 {
-  height: 40vh;
-  width: 100%;
-  background-size: cover;
-  margin: 0.5rem 0;
-  background-position: center;
-  overflow: hidden;
-  background-image: url("../img/quienessomos.jfif");
-}
-
-.general__imagen--articulo2 {
-  height: 40vh;
-  width: 100%;
-  background-size: cover;
-  margin: 0.5rem 0;
-  background-position: center;
-  overflow: hidden;
-  background-image: url("../img/proceso.png");
-}
-
-.general__imagen--articulo3 {
-  height: 40vh;
-  width: 100%;
-  background-size: cover;
-  margin: 0.5rem 0;
-  background-position: center;
-  overflow: hidden;
-  background-image: url("../img/proyectos.JPG");
-}
-.general__imagen--articulo4 {
-  height: 40vh;
-  width: 100%;
-  background-size: cover;
-  margin: 0.5rem 0;
-  background-position: center;
-  overflow: hidden;
-  background-image: url("../img/consultaweb.jpg");
-}
-
-.general__imagen--articulo5 {
-  height: 40vh;
-  width: 100%;
-  background-size: cover;
-  margin: 0.5rem 0;
-  background-position: center;
-  overflow: hidden;
-  background-image: url("../img/tecnologias.png");
-}
-
-.general__imagen--articulo6 {
-  height: 40vh;
-  width: 100%;
-  background-size: cover;
-  margin: 0.5rem 0;
-  background-position: center;
-  overflow: hidden;
-  background-image: url("../img/equipo.jfif");
-}
-.general__articulo {
-  width: 95%;
-  margin: 1rem;
-  display: flex;
-  flex-direction: column;
-  background: #3A3030;
-  color:#FFEBCD;
-  padding: 1rem;
-  text-align: justify;
-}
-
-.general__articulo h2 {
-  text-align:center;
-}
 
 /*COMPARTIR EN REDES SOCIALES*/
 
@@ -386,6 +278,7 @@ color: #dd31dd;
 
 .b-example-divider {
   height: 3rem;
+  width: 100%;
   background-color: rgba(0, 0, 0, .1);
   border: solid rgba(0, 0, 0, .15);
   border-width: 1px 0;
@@ -393,7 +286,7 @@ color: #dd31dd;
 }
 
 @media (min-width: 992px) {
-  .rounded-lg-3 { border-radius: .3rem; }
+  .rounded-lg-3 { border-radius: .5rem; }
 }
 
 @media (max-width: 1000px){
