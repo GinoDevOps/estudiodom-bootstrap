@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="shortcut icon" href="../img/Icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/main.css">
     <title>Contacto</title>
   </head>
-  <body id="arriba">    
+  <body id="arriba">
+    <script>
+      AOS.init();
+    </script>    
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html"><img class="logotipo" src="../img/Logo.png" alt="logo" srcset=""></a>
@@ -48,13 +53,13 @@
 </section>
 <div class="container-lg  text-white py-4 my-2">
     <form>
-    <div class="form-outline mb-4">
+    <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="form-outline mb-4">
       <input type="text" id="form_nombre" class="form-control" placeholder="Tu nombre"/>
     </div>
-    <div class="form-outline mb-4">
+    <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="form-outline mb-4">
       <input type="email" id="form_mail" class="form-control" placeholder="Tu e-mail"/>
     </div>
-    <select class="form-select form-select-me mb-3" aria-label="form-select">
+    <select data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="form-select form-select-me mb-3" aria-label="form-select">
         <option selected>Qué tipo de servicio necesitas?</option>
         <option value="1">Diseño Web</option>
         <option value="2">Rediseño de Sitio</option>
@@ -65,10 +70,10 @@
         <option value="7">Imagen Corporativa</option>
         <option value="8">Administracion Redes</option>
     </select>
-    <div class="form-outline mb-4">
+    <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="form-outline mb-4">
       <textarea class="form-control" id="form4Example3" rows="4" placeholder="Cuéntanos sobre tu proyecto."></textarea>
     </div>
-    <div class="form-check d-flex justify-content-center mb-4">
+    <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="form-check d-flex justify-content-center mb-4">
       <input
         class="form-check-input me-2"
         type="checkbox"
@@ -76,11 +81,11 @@
         id="form4"
         checked
       />
-      <label class="form-check-label" for="form4">
+      <label data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="form-check-label" for="form4">
         Enviar copia de este mensaje a mi correo electrónico.
       </label>
     </div>
-    <div class="btn-group d-flex" role="group" aria-label="Basic checkbox toggle button group">
+    <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="btn-group d-flex" role="group" aria-label="Basic checkbox toggle button group">
         <input type="reset" class="btn-check" id="btncheck1" autocomplete="off">
         <label class="btn btn-outline-primary" for="btncheck1">Reset</label>
         <input type="submit" class="btn-check" id="btncheck2" autocomplete="off">
@@ -88,7 +93,124 @@
     </div>
   </form>
 </div>
+<div class="text-center text-white mt-3">
+  <h1 class="display-2 fw-normal mt-5">PLANES A TU MEDIDA</h1>
+</div>
+<div class="container-fluid">
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    <div class="col">
+      <div class="card mb-4 rounded-3">
+        <div class="card-header py-3 fondopers">
+          <h4>Básico</h4>
+        </div>
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="card-body fondopers">
+          <h1 class="card-title pricing-card-title">2.500 ARG<small class="text-muted fw-light">/mes</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>1 usuario administrador</li>
+            <li>2 GB de almacenamiento</li>
+            <li>dominio email propio</li>
+            <li>acceso a centro de ayuda</li>
+          </ul>
+          <a href="../pages/pagobasico.html" class="btn btn-outline-primary btn-lg my-1">CONTRATAR</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-4 rounded-3">
+        <div class="card-header py-3">
+          <h4 class="fw-normal">Profesional</h4>
+        </div>
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="card-body">
+          <h1 class="card-title pricing-card-title">5.000 ARG<small class="text-muted fw-light">/mes</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Control de usuarios</li>
+            <li>10 GB de almacemamiento</li>
+            <li>webmail prioritario</li>
+            <li>soporte dedicado</li>
+          </ul>
+          <a href="../pages/pagoprofesional.html" class="btn btn-outline-primary btn-lg my-1">CONTRATAR</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm border-primary">
+        <div class="card-header py-3 text-white bg-dark border-primary">
+          <h4 class="fw-normal">Corporativo</h4>
+        </div>
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="card-body">
+          <h1 class="card-title pricing-card-title">20.000 ARG<small class="text-muted fw-light">/mes</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Usuarios ilimitados</li>
+            <li>50 GB de almacenamiento</li>
+            <li>soporte dedicado 24/7</li>
+            <li>mensajeria corporativa</li>
+          </ul>
+          <a href="../pages/pagocorporativo.html" class="btn btn-outline-primary btn-lg my-1">CONTRATAR</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
+
+<div class="container-fluid">
+  <h2 class="display-6 text-center mb-4 text-white">¡COMPARA NUESTROS PLANES!</h2>
+</div>
+
+
+<div data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="container-fluid table-responsive">
+  <table class="table text-center fondopers">
+    <thead width="100vw">
+      <tr>
+        <th></th>
+        <th><p class="encabezado">BÁSICO</p></th>
+        <th><p class="encabezado">PROFESIONAL</p></th>
+        <th><p class="encabezado">CORPORATIVO</p></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row" class="text-start">Hosting y dominio</th>
+        <td><i class="bi bi-check-square-fill"></i></td>
+        <td><i class="bi bi-check-square-fill"></i></td>
+        <td><i class="bi bi-check-square-fill"></i></td>
+      </tr>
+      <tr>
+        <th scope="row" class="text-start">Diseño a medida</th>
+        <td><i class="bi bi-check-square-fill"></i></td>
+        <td><i class="bi bi-check-square-fill"></i></td>
+        <td><i class="bi bi-check-square-fill"></i></td>
+      </tr>
+    </tbody>
+
+    <tbody>
+      <tr>
+        <th scope="row" class="text-start">Cambios</th>
+        <td>NO</td>
+        <td>2/mes</td>
+        <td><i class="bi bi-check-square-fill"></i></td>
+      </tr>
+      <tr>
+        <th scope="row" class="text-start">Ventas</th>
+        <td></td>
+        <td><i class="bi bi-check-square-fill"></i></td>
+        <td><i class="bi bi-check-square-fill"></i></td>
+      </tr>
+      <tr>
+        <th scope="row" class="text-start">CMS + Panel</th>
+        <td></td>
+        <td><i class="bi bi-check-square-fill"></i></td>
+        <td><i class="bi bi-check-square-fill"></i></td>
+      </tr>
+      <tr>
+        <th scope="row" class="text-start">Soporte24/7</th>
+        <td></td>
+        <td></td>
+        <td><i class="bi bi-check-square-fill"></i></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 <!--FOOTER-->
     <footer class="pie">
       <div>
