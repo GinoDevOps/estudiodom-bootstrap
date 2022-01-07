@@ -10,7 +10,7 @@
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: 1fr 1fr;
       margin:1rem;
-      background-color: #3A3030;
+      background-color: $fondo;
   }
     
   &__container2 {
@@ -18,23 +18,23 @@
       grid-gap: 1rem;
       grid-template-columns: repeat(2, 1fr);
       margin:1rem;
-      background-color: #3A3030;
+      background-color: $fondo;
   }
   /* PROPIEDADES TARJETAS GRID */  
   &__card {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      background: #0082e6;
-      color:#FFEBCD;
+      background: $celeste;
+      color:$fondoclaro;
       text-align: center;
   
       &:hover {
           display: flex;
           flex-direction: column;
           justify-content: space-between;
-          background: #7431DD;
-          color:#FFEBCD;
+          background: $rosa;
+          color:$fondoclaro;
       }
   }
 

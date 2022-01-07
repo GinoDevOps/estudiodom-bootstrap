@@ -1,6 +1,12 @@
-@import "./parcials/commons"; /*PROPIEDADES COMUNES A TODAS LAS PAGINAS*/
-@import "./parcials/bootstrapmod"; /*ADAPTACIONES A BOOTSTRAP*/
-@import "./parcials/grids"; /*PROPIEDADES GRID SIN BOOTSTRAP*/
-@import "./parcials/iframes"; /*IFRAMES RESPONSIVE*/
-@import "./parcials/img_blog"; /*IMAGENES BLOG COVER*/
-@import "./parcials/footer"; /*PROPIEDADES FOOTER*/
+/*VARIABLES COLORES*/
+$fondo:#3A3030;
+$fondoclaro:#FFEBCD;
+$celeste:#0082e6;
+$rosa:#dd31dd;
+
+@import "./partials/commons"; /*PROPIEDADES COMUNES A TODAS LAS PAGINAS*/
+@import "./partials/bootstrapmod"; /*ADAPTACIONES A BOOTSTRAP*/
+@import "./partials/grids"; /*PROPIEDADES GRID SIN BOOTSTRAP*/
+@import "./partials/iframes"; /*IFRAMES RESPONSIVE*/
+@import "./partials/img_blog"; /*IMAGENES BLOG COVER*/
+@import "./partials/footer"; /*PROPIEDADES FOOTER*/

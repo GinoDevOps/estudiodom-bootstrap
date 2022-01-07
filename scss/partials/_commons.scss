@@ -4,16 +4,13 @@
 }
   
 body {
-    background-color: #3A3030;
+    background-color: $fondo;
 }
   
 .fondopers {
-    background-color: #FFEBCD;
+    background-color: $fondoclaro;
 }
 
-.fondonavbar {
-    background-color: #dd31dd;
-}
 /*SEPARADORES*/
 
 .separador {
@@ -33,13 +30,13 @@ body {
 .compartir {
     font-size: 2rem;
     padding:0.2rem;
-    color: #FFEBCD;
+    color: $fondoclaro;
     text-align: center;
 
     &:hover{
         font-size: 2rem;
         padding:0.2rem;
-        color: #0082e6;
+        color: $celeste;
     }
 }
 
@@ -48,10 +45,10 @@ body {
 .icono__vinculo {
     font-size: 3rem;
     padding:0.2rem;
-    color: #FFEBCD;
+    color: $fondoclaro;
 
     &:hover{
-    color: #dd31dd;
+    color: $rosa;
     }
 }
   

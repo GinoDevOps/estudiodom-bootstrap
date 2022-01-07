@@ -3,26 +3,26 @@
 .pie {
   
     padding:2rem;
-    background-color:#3A3030;
+    background-color:$fondo;
     align-content: center;
-    color:#FFEBCD;
+    color:$fondoclaro;
     text-decoration: none;
     text-align:center;
     
     &__vinculo {
-      color:#FFEBCD;
+      color:$fondoclaro;
       text-decoration: none;
       align-content: center;
     }
 
     &__vinculo:hover{
-      color:#dd31dd;
+      color:$rosa;
       text-decoration: none;
     }
     
     &>hr {
     height: 2px;
-    background-color: #FFEBCD;
+    background-color: $fondoclaro;
     margin-top: 1rem;
     margin-bottom: 1rem;
     }
@@ -31,10 +31,10 @@
 .icono__vinculo {
   font-size: 2rem;
   padding:0.2rem;
-  color: #FFEBCD;
+  color: $fondoclaro;
 
   &:hover{
-  color: #dd31dd;
+  color: $rosa;
   }
 }
   

@@ -1,3 +1,4 @@
+/*VARIABLES COLORES*/
 /*/////////////////////// PROPIEDADES COMUNES ////////////////////////////////////////////*/
 * {
   font-family: 'Montserrat', sans-serif;
@@ -9,10 +10,6 @@ body {
 
 .fondopers {
   background-color: #FFEBCD;
-}
-
-.fondonavbar {
-  background-color: #dd31dd;
 }
 
 /*SEPARADORES*/
@@ -136,12 +133,21 @@ body {
   }
 }
 
+/*ADAPTACIONES A BOOTSTRAP*/
+/*/////////////////////// PROPIEDADES GRID Y FLEX ////////////////////////////////////////////*/
+/* TARJETAS SERVICIOS */
+.grid {
+  /* PROPIEDADES CONTENEDORES GRID */
+  /* PROPIEDADES TARJETAS GRID */
+  /* IMAGENES TARJETAS GRID */
+}
+
 .grid__container {
   display: -ms-grid;
   display: grid;
   grid-gap: 1rem;
   padding: 0.5rem;
-  -ms-grid-columns: (1fr);
+  -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   -ms-grid-rows: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
@@ -153,7 +159,7 @@ body {
   display: -ms-grid;
   display: grid;
   grid-gap: 1rem;
-  -ms-grid-columns: (1fr);
+  -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   margin: 1rem;
   background-color: #3A3030;
@@ -186,7 +192,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: #7431DD;
+  background: #dd31dd;
   color: #FFEBCD;
 }
 
