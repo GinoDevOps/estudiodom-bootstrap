@@ -12,11 +12,14 @@ body {
 }
 
 /*BARRA NAVEGACION*/
+
 .itembarra {
-    padding:0.3rem;
+    padding: 6px 5px;
     &:hover {
-        background-color:$purpura;
-        border-radius: 1rem;
+        padding: 3px 5px;
+        border-bottom: 2px solid;
+        border-top:2px solid;
+        border-color:$purpura;
     }
 }
 

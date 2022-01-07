@@ -14,12 +14,14 @@ body {
 
 /*BARRA NAVEGACION*/
 .itembarra {
-  padding: 0.3rem;
+  padding: 6px 5px;
 }
 
 .itembarra:hover {
-  background-color: #7431DD;
-  border-radius: 1rem;
+  padding: 3px 5px;
+  border-bottom: 2px solid;
+  border-top: 2px solid;
+  border-color: #7431DD;
 }
 
 /*SEPARADORES*/
