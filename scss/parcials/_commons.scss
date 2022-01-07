@@ -1,0 +1,55 @@
+/*/////////////////////// PROPIEDADES COMUNES ////////////////////////////////////////////*/
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+  
+body {
+    background-color: #3A3030;
+}
+  
+.fondopers {
+    background-color: #FFEBCD;
+}
+
+/*SEPARADORES*/
+
+.separador {
+    display:flex;
+    height: 8vh;
+    width:auto;
+
+    &--chico {
+        display:flex;
+        height: 5vh;
+        width:auto;
+    }
+}
+
+/*COMPARTIR EN REDES SOCIALES*/
+
+.compartir {
+    font-size: 2rem;
+    padding:0.2rem;
+    color: #FFEBCD;
+    text-align: center;
+
+    &:hover{
+        font-size: 2rem;
+        padding:0.2rem;
+        color: #0082e6;
+    }
+}
+
+/* ICONOS REDES SOCIALES PIE DE PAGINA */
+
+.icono__vinculo {
+    font-size: 3rem;
+    padding:0.2rem;
+    color: #FFEBCD;
+
+    &:hover{
+    color: #dd31dd;
+    }
+}
+  
+  

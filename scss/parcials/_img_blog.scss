@@ -1,0 +1,38 @@
+/*/////////////////////// IMAGENES BLOG ////////////////////////////////////////////*/
+
+.blog__imagen {
+
+  &--articulo1 {
+      height: 40vh;
+      width: 100%;
+      background-size: cover;
+      margin: 0.5rem 0;
+      background-position: center;
+      overflow: hidden;
+      background-image: url("../img/responsive.jpg");
+  }
+
+  &--articulo2 {
+      height: 40vh;
+      width: 100%;
+      background-size: cover;
+      margin: 0.5rem 0;
+      background-position: center;
+      overflow: hidden;
+      background-image: url("../img/hosting.jfif");
+  }
+    
+  &--articulo3 {
+      height: 40vh;
+      width: 100%;
+      background-size: cover;
+      margin: 0.5rem 0;
+      background-position: center;
+      overflow: hidden;
+      background-image: url("../img/redes.jfif");
+  }
+}
+
+  
+  
+  

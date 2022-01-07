@@ -1,0 +1,30 @@
+{
+  "name": "repo-bootstrap",
+  "version": "1.0.0",
+  "description": "modificaciones sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run watch-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiorgioCode/estudiodom-bootstrap.git"
+  },
+  "keywords": [
+    "sass",
+    "estudiodom",
+    "coderhouse"
+  ],
+  "author": "Jorge Angel Paez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiorgioCode/estudiodom-bootstrap/issues"
+  },
+  "homepage": "https://github.com/GiorgioCode/estudiodom-bootstrap#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,132 @@
+/*/////////////////////// PROPIEDADES GRID Y FLEX ////////////////////////////////////////////*/
+
+/* TARJETAS SERVICIOS */
+.grid {
+  /* PROPIEDADES CONTENEDORES GRID */  
+  &__container {
+      display: grid;
+      grid-gap: 1rem;
+      padding: 0.5rem;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr 1fr;
+      margin:1rem;
+      background-color: #3A3030;
+  }
+    
+  &__container2 {
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: repeat(2, 1fr);
+      margin:1rem;
+      background-color: #3A3030;
+  }
+  /* PROPIEDADES TARJETAS GRID */  
+  &__card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: #0082e6;
+      color:#FFEBCD;
+      text-align: center;
+  
+      &:hover {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          background: #7431DD;
+          color:#FFEBCD;
+      }
+  }
+
+  /* IMAGENES TARJETAS GRID */  
+  &__imagen1 {
+    height: 40vh;
+    width: 100%;
+    background: url("../img/card_diseno_grafico.png");
+    margin: 0.5rem 0;
+    background-position: center;
+    background-size:cover;
+  }
+    
+  &__imagen2 {
+    height: 40vh;
+    width: 100%;
+    background: url("../img/card_diseno_web.png");
+    margin: 0.5rem 0;
+    background-position: center;
+    background-size:cover;
+  }
+  
+  &__imagen3 {
+    height: 40vh;
+    width: 100%;
+    background: url("../img/card_marketing.png");
+    margin: 0.5rem 0;
+    background-position: center;
+    background-size:cover;
+  }
+  
+  &__imagen4 {
+    height: 40vh;
+    width: 100%;
+    background: url("../img/card_redesign.png");
+    margin: 0.5rem 0;
+    background-position: center;
+    background-size:cover;
+    }
+  
+  &__imagen5 {
+    height: 40vh;
+    width: 100%;
+    background: url("../img/card_seo.jpg");
+    margin: 0.5rem 0;
+    background-position: center;
+    background-size:cover;
+  }
+  
+  &__imagen6 {
+    height: 40vh;
+    width: 100%;
+    background: url("../img/card_shopping.png");
+    margin: 0.5rem 0;
+    background-position: center;
+    background-size:cover;
+  }
+}
+ 
+
+
+
+
+@media (max-width: 1000px){
+    .grid_container {
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: 1fr 1fr;
+      margin:1rem;
+    }
+    .grid_container2 {
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: 1fr;
+      margin:1rem;
+    }
+}
+
+@media (max-width: 600px){
+    .grid_container {
+      display: grid;
+      grid-gap: 2rem;
+      grid-template-columns: 1fr;
+      margin:1rem;
+    }
+}
+  
+@media (max-width: 450px) {
+     .grid_container {
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: 1fr;
+      margin:1rem;
+    }
+}
