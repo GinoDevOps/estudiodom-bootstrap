@@ -11,6 +11,10 @@ body {
   background-color: #FFEBCD;
 }
 
+.fondonavbar {
+  background-color: #dd31dd;
+}
+
 /*SEPARADORES*/
 .separador {
   display: -webkit-box;
@@ -132,15 +136,6 @@ body {
   }
 }
 
-/*ADAPTACIONES A BOOTSTRAP*/
-/*/////////////////////// PROPIEDADES GRID Y FLEX ////////////////////////////////////////////*/
-/* TARJETAS SERVICIOS */
-.grid {
-  /* PROPIEDADES CONTENEDORES GRID */
-  /* PROPIEDADES TARJETAS GRID */
-  /* IMAGENES TARJETAS GRID */
-}
-
 .grid__container {
   display: -ms-grid;
   display: grid;
@@ -250,7 +245,7 @@ body {
 }
 
 @media (max-width: 1000px) {
-  .grid_container {
+  .grid__container {
     display: -ms-grid;
     display: grid;
     grid-gap: 1rem;
@@ -258,7 +253,7 @@ body {
         grid-template-columns: 1fr 1fr;
     margin: 1rem;
   }
-  .grid_container2 {
+  .grid__container2 {
     display: -ms-grid;
     display: grid;
     grid-gap: 1rem;
@@ -269,7 +264,7 @@ body {
 }
 
 @media (max-width: 600px) {
-  .grid_container {
+  .grid__container {
     display: -ms-grid;
     display: grid;
     grid-gap: 2rem;
@@ -280,7 +275,7 @@ body {
 }
 
 @media (max-width: 450px) {
-  .grid_container {
+  .grid__container {
     display: -ms-grid;
     display: grid;
     grid-gap: 1rem;
