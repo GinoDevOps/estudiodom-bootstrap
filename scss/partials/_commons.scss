@@ -11,6 +11,15 @@ body {
     background-color: $fondoclaro;
 }
 
+/*BARRA NAVEGACION*/
+.itembarra {
+    padding:0.3rem;
+    &:hover {
+        background-color:$purpura;
+        border-radius: 1rem;
+    }
+}
+
 /*SEPARADORES*/
 
 .separador {

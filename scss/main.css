@@ -12,6 +12,16 @@ body {
   background-color: #FFEBCD;
 }
 
+/*BARRA NAVEGACION*/
+.itembarra {
+  padding: 0.3rem;
+}
+
+.itembarra:hover {
+  background-color: #7431DD;
+  border-radius: 1rem;
+}
+
 /*SEPARADORES*/
 .separador {
   display: -webkit-box;
