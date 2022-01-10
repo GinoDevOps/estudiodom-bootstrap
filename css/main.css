@@ -175,42 +175,42 @@ body {
   .grid__imagen1 {
     height: 40vh;
     width: 100%;
-    background: url("../img/card_diseno_grafico.png");
+    background: url("../img/card_diseno_grafico.webp");
     margin: 0.5rem 0;
     background-position: center;
     background-size: cover; }
   .grid__imagen2 {
     height: 40vh;
     width: 100%;
-    background: url("../img/card_diseno_web.png");
+    background: url("../img/card_diseno_web.webp");
     margin: 0.5rem 0;
     background-position: center;
     background-size: cover; }
   .grid__imagen3 {
     height: 40vh;
     width: 100%;
-    background: url("../img/card_marketing.png");
+    background: url("../img/card_marketing.webp");
     margin: 0.5rem 0;
     background-position: center;
     background-size: cover; }
   .grid__imagen4 {
     height: 40vh;
     width: 100%;
-    background: url("../img/card_redesign.png");
+    background: url("../img/card_redesign.webp");
     margin: 0.5rem 0;
     background-position: center;
     background-size: cover; }
   .grid__imagen5 {
     height: 40vh;
     width: 100%;
-    background: url("../img/card_seo.jpg");
+    background: url("../img/card_seo.webp");
     margin: 0.5rem 0;
     background-position: center;
     background-size: cover; }
   .grid__imagen6 {
     height: 40vh;
     width: 100%;
-    background: url("../img/card_shopping.png");
+    background: url("../img/card_shopping.webp");
     margin: 0.5rem 0;
     background-position: center;
     background-size: cover; }
@@ -284,7 +284,7 @@ body {
   margin: 0.5rem 0;
   background-position: center;
   overflow: hidden;
-  background-image: url("../img/responsive.jpg"); }
+  background-image: url("../img/responsive.webp"); }
 
 .blog__imagen--articulo2 {
   height: 40vh;
@@ -293,7 +293,7 @@ body {
   margin: 0.5rem 0;
   background-position: center;
   overflow: hidden;
-  background-image: url("../img/hosting.jfif"); }
+  background-image: url("../img/hosting.webp"); }
 
 .blog__imagen--articulo3 {
   height: 40vh;
@@ -302,7 +302,7 @@ body {
   margin: 0.5rem 0;
   background-position: center;
   overflow: hidden;
-  background-image: url("../img/redes.jfif"); }
+  background-image: url("../img/redes.webp"); }
 
 /*IMAGENES BLOG COVER*/
 /*/////////////////////// PROPIEDADES DEL FOOTER ////////////////////////////////////////////*/
