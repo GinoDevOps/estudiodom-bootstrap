@@ -9,6 +9,15 @@ body {
 .fondopers {
   background-color: #FFEBCD; }
 
+.fondo_basico {
+  background-color: #0082e6; }
+
+.fondo_profesional {
+  background-color: #dd31dd; }
+
+.fondo_corporativo {
+  background-color: #7431DD; }
+
 /*BARRA NAVEGACION*/
 .itembarra {
   padding: 6px 5px; }
@@ -118,7 +127,7 @@ body {
   /*configuracion bordes redondeados*/
   border-radius: .5rem; }
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
   .encabezado {
     /*esto cambia la orientacion del texto del encabezado en la tabla de comparacion de planes*/
     display: flex;
