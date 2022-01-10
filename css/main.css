@@ -103,7 +103,7 @@ body {
 
 /* FILTRO FONDO BORROSO CAROUSEL */
 .imagencarrousel {
-  filter: blur(3px); }
+  filter: blur(1px); }
 
 /* DIVISOR 3D */
 .b-example-divider {
