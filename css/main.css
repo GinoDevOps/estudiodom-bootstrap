@@ -13,10 +13,38 @@ body {
 .itembarra {
   padding: 6px 5px; }
   .itembarra:hover {
-    padding: 3px 5px;
-    border-bottom: 2px solid;
-    border-top: 2px solid;
-    border-color: #7431DD; }
+    padding: 2px 5px;
+    border-bottom: 4px solid;
+    border-top: 4px solid;
+    --angle: 0deg;
+    border-image: linear-gradient(var(--angle), #7431DD, #dd31dd) 1;
+    animation: 2s rotate linear infinite; }
+
+@keyframes rotate {
+  to {
+    --angle: 360deg; } }
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false; }
+
+/*GRADIENTE ANIMADO TEXTO*/
+.textogradiente {
+  color: #7431DD;
+  background: linear-gradient(to right, #dd31dd 20%, #7431DD 40%, #0082e6 60%, #dd31dd 80%);
+  background-size: 200% auto;
+  text-decoration: bold;
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 5s linear infinite; }
+
+@keyframes shine {
+  to {
+    background-position: 200% center; } }
 
 /*SEPARADORES*/
 .separador {

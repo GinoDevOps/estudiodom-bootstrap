@@ -16,13 +16,47 @@ body {
 .itembarra {
     padding: 6px 5px;
     &:hover {
-        padding: 3px 5px;
-        border-bottom: 2px solid;
-        border-top:2px solid;
-        border-color:$purpura;
+        padding: 2px 5px;
+        border-bottom: 4px solid;
+        border-top:4px solid;
+        --angle: 0deg;
+        border-image: linear-gradient(var(--angle),$purpura,$rosa) 1;
+        animation: 2s rotate linear infinite;
     }
 }
 
+@keyframes rotate {
+    to {
+        --angle: 360deg;
+    }
+}
+      
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+/*GRADIENTE ANIMADO TEXTO*/
+
+.textogradiente {
+    color: $purpura;
+	background: linear-gradient(to right, $rosa 20%, $purpura 40%, $celeste 60%, $rosa 80%);
+    background-size: 200% auto;
+    text-decoration: bold;
+    color: #000;
+    background-clip: text;
+    text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+    animation: shine 5s linear infinite;
+}
+@keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+}
 /*SEPARADORES*/
 
 .separador {
@@ -63,5 +97,3 @@ body {
     color: $rosa;
     }
 }
-  
-  
