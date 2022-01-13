@@ -55,6 +55,23 @@ body {
   to {
     background-position: 200% center; } }
 
+/*GRADIENTE ANIMADO TEXTO*/
+.fondoogradiente {
+  color: #3A3030;
+  background: linear-gradient(to right, #3A3030 20%, #7431DD 40%, #0082e6 60%, #3A3030 80%);
+  background-size: 200% auto;
+  text-decoration: bold;
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 5s linear infinite; }
+
+@keyframes shine {
+  to {
+    background-position: 200% center; } }
+
 /*SEPARADORES*/
 .separador {
   display: flex;
@@ -171,42 +188,42 @@ body {
   .grid__imagen1 {
     height: 40vh;
     width: 100%;
-    background: url("../img/card_diseno_grafico.webp");
+    background: url("../img/svg/diseno_grafico.svg");
     margin: 0.5rem 0;
     background-position: center;
     background-size: cover; }
   .grid__imagen2 {
     height: 40vh;
     width: 100%;
-    background: url("../img/card_diseno_web.webp");
+    background: url("../img/svg/diseno.svg");
     margin: 0.5rem 0;
     background-position: center;
     background-size: cover; }
   .grid__imagen3 {
     height: 40vh;
     width: 100%;
-    background: url("../img/card_marketing.webp");
+    background: url("../img/svg/marketing.svg");
     margin: 0.5rem 0;
     background-position: center;
     background-size: cover; }
   .grid__imagen4 {
     height: 40vh;
     width: 100%;
-    background: url("../img/card_redesign.webp");
+    background: url("../img/svg/rediseno.svg");
     margin: 0.5rem 0;
     background-position: center;
     background-size: cover; }
   .grid__imagen5 {
     height: 40vh;
     width: 100%;
-    background: url("../img/card_seo.webp");
+    background: url("../img/svg/seo.svg");
     margin: 0.5rem 0;
     background-position: center;
     background-size: cover; }
   .grid__imagen6 {
     height: 40vh;
     width: 100%;
-    background: url("../img/card_shopping.webp");
+    background: url("../img/svg/shopping.svg");
     margin: 0.5rem 0;
     background-position: center;
     background-size: cover; }
