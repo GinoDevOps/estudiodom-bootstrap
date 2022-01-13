@@ -256,10 +256,11 @@ body {
 
 @media (max-width: 450px) {
   .grid__container {
+    width: 100%;
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: 1fr;
-    margin: 1rem; } }
+    margin: 0rem; } }
 
 /*PROPIEDADES GRID SIN BOOTSTRAP*/
 /*/////////////////////// PROPIEDADES iframes responsive ////////////////////////////////////////////*/
