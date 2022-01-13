@@ -1,6 +1,9 @@
 /*/////////////////////// PROPIEDADES GRID Y FLEX ////////////////////////////////////////////*/
 
 /* TARJETAS SERVICIOS */
+* a {
+    text-decoration:none;
+}
 .grid {
   /* PROPIEDADES CONTENEDORES GRID */  
   &__container {
@@ -11,6 +14,7 @@
       grid-template-rows: 1fr 1fr;
       margin:1rem;
       background-color: $fondo;
+      text-decoration:none;
   }
     
   &__container2 {
@@ -19,6 +23,7 @@
       grid-template-columns: repeat(2, 1fr);
       margin:1rem;
       background-color: $fondo;
+      text-decoration:none;
   }
   /* PROPIEDADES TARJETAS GRID */  
   &__card {
@@ -28,6 +33,7 @@
       background: $celeste;
       color:$fondoclaro;
       text-align: center;
+      text-decoration:none;
   
       &:hover {
           display: flex;
@@ -35,6 +41,7 @@
           justify-content: space-between;
           background: $rosa;
           color:$fondoclaro;
+          text-decoration:none;
       }
   }
 
