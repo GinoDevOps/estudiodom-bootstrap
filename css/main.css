@@ -227,15 +227,15 @@ body {
 @media (max-width: 1000px) {
   .grid__container {
     display: grid;
-    grid-gap: 1rem;
-    margin: 1rem;
+    grid-gap: 0.5rem;
+    margin: 0.5rem;
     background-color: #3A3030;
     text-decoration: none;
     grid-template-columns: 1fr 1fr; }
   .grid__container2 {
     display: grid;
-    grid-gap: 1rem;
-    margin: 1rem;
+    grid-gap: 0.5rem;
+    margin: 0.5rem;
     background-color: #3A3030;
     text-decoration: none;
     grid-template-columns: 1fr; } }
@@ -256,7 +256,11 @@ body {
     margin: 1rem;
     background-color: #3A3030;
     text-decoration: none;
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .grid_container2 {
+    grid-gap: 0.2rem;
+    margin: 0px;
+    padding: 0px; } }
 
 /*PROPIEDADES GRID SIN BOOTSTRAP*/
 /*/////////////////////// PROPIEDADES iframes responsive ////////////////////////////////////////////*/
