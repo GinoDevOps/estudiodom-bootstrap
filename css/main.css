@@ -225,14 +225,14 @@ body {
     background: #dd31dd; }
 
 @media (max-width: 1000px) {
-  .grid .grid__container {
+  .grid__container {
     display: grid;
     grid-gap: 1rem;
     margin: 1rem;
     background-color: #3A3030;
     text-decoration: none;
     grid-template-columns: 1fr 1fr; }
-  .grid .grid__container2 {
+  .grid__container2 {
     display: grid;
     grid-gap: 1rem;
     margin: 1rem;
@@ -241,7 +241,7 @@ body {
     grid-template-columns: 1fr; } }
 
 @media (max-width: 600px) {
-  .grid .grid__container {
+  .grid__container {
     display: grid;
     grid-gap: 1rem;
     margin: 1rem;
@@ -250,7 +250,7 @@ body {
     grid-template-columns: 1fr; } }
 
 @media (max-width: 450px) {
-  .grid .grid__container {
+  .grid__container {
     display: grid;
     grid-gap: 1rem;
     margin: 1rem;
