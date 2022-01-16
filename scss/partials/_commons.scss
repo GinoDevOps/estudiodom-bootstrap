@@ -67,26 +67,6 @@ body {
     }
 }
 
-/*GRADIENTE ANIMADO TEXTO*/
-
-.fondoogradiente {
-    color: $fondo;
-	background: linear-gradient(to right, $fondo 20%, $purpura 40%, $celeste 60%, $fondo 80%);
-    background-size: 200% auto;
-    text-decoration: bold;
-    color: #000;
-    background-clip: text;
-    text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  
-    animation: shine 5s linear infinite;
-}
-@keyframes shine {
-    to {
-      background-position: 200% center;
-    }
-}
 /*SEPARADORES*/
 
 .separador {
