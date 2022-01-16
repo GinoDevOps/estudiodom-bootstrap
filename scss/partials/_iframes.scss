@@ -2,44 +2,38 @@
 /*/////////////////////// PROPIEDADES iframes responsive ////////////////////////////////////////////*/
 
 /*CONTENEDOR IFRAME RESPONSIVE*/
-.info { 
+@mixin iframe-base {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
 
+.info { 
   &__yt {
-      position: relative;
-      overflow: hidden;
-      padding-top: 56.25%;
+    @include iframe-base;
   }
-  
   &__map {
-      position: relative;
-      overflow: hidden;
-      padding-top: 56.25%;
-    
+    @include iframe-base;
   }
 }
 
 /* PROPIEDADES IFRAME*/
+@mixin iframe-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 1rem;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 .iframe { 
-  
   &yt { /*youtube*/
-      position: absolute;
-      top: 0;
-      left: 0;
-      margin-top: 1rem;
-      width: 100%;
-      height: 100%;
-      border: 0;
+    @include iframe-inner;
   }
 
   &map { /*google maps*/
-      position: absolute;
-      top: 0;
-      left: 0;
-      margin-top: 1rem;
-      width: 100%;
-      height: 100%;
-      border: 0;
+    @include iframe-inner;
   }
 }
-
-  

@@ -1,38 +1,30 @@
 /*/////////////////////// IMAGENES BLOG ////////////////////////////////////////////*/
+$imagen: (
+    articulo1: url("../img/responsive.webp"),
+    articulo2: url("../img/hosting.webp"),
+    articulo3: url("../img/redes.webp"),
+);
 
-.blog__imagen {
-
-  &--articulo1 {
-      height: 40vh;
-      width: 100%;
-      background-size: cover;
-      margin: 0.5rem 0;
-      background-position: center;
-      overflow: hidden;
-      background-image: url("../img/responsive.webp");
-  }
-
-  &--articulo2 {
-      height: 40vh;
-      width: 100%;
-      background-size: cover;
-      margin: 0.5rem 0;
-      background-position: center;
-      overflow: hidden;
-      background-image: url("../img/hosting.webp");
-  }
-    
-  &--articulo3 {
-      height: 40vh;
-      width: 100%;
-      background-size: cover;
-      margin: 0.5rem 0;
-      background-position: center;
-      overflow: hidden;
-      background-image: url("../img/redes.webp");
-  }
+@mixin imagen-blog {
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    margin: 0.5rem 0;
+    background-position: center;
+    overflow: hidden;
 }
 
-  
-  
-  
+.blog__imagen {
+    &--articulo1 {
+        @include imagen-blog;
+        background-image: map-get($imagen,articulo1);
+    }
+    &--articulo2 {
+        @include imagen-blog;
+        background-image:  map-get($imagen,articulo2);
+    }
+    &--articulo3 {
+        @include imagen-blog;
+        background-image:  map-get($imagen,articulo3);
+    }
+}

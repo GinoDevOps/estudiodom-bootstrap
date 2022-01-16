@@ -57,29 +57,29 @@ body {
 
 /*SEPARADORES*/
 .separador {
+  /*EXTEND*/
   display: flex;
   height: 8vh;
   width: auto; }
   .separador--chico {
-    display: flex;
-    height: 5vh;
-    width: auto; }
+    height: 5vh; }
+  .separador--grande {
+    height: 10vh; }
 
 /*COMPARTIR EN REDES SOCIALES*/
 .compartir {
   font-size: 2rem;
   padding: 0.2rem;
-  color: #FFEBCD;
-  text-align: center; }
+  text-align: center;
+  color: #FFEBCD; }
   .compartir:hover {
-    font-size: 2rem;
-    padding: 0.2rem;
     color: #0082e6; }
 
 /* ICONOS REDES SOCIALES PIE DE PAGINA */
 .icono__vinculo {
-  font-size: 3rem;
+  font-size: 2rem;
   padding: 0.2rem;
+  text-align: center;
   color: #FFEBCD; }
   .icono__vinculo:hover {
     color: #dd31dd; }
@@ -136,114 +136,127 @@ body {
 
 /*ADAPTACIONES A BOOTSTRAP*/
 /*/////////////////////// PROPIEDADES GRID Y FLEX ////////////////////////////////////////////*/
-/* TARJETAS SERVICIOS */
 * a {
   text-decoration: none; }
 
-.grid {
-  /* PROPIEDADES CONTENEDORES GRID */
-  /* PROPIEDADES TARJETAS GRID */
-  /* IMAGENES TARJETAS GRID */ }
-  .grid__container {
-    display: grid;
-    grid-gap: 1rem;
-    padding: 0.5rem;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr;
-    margin: 1rem;
-    background-color: #3A3030;
-    text-decoration: none; }
-  .grid__container2 {
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 1rem;
-    background-color: #3A3030;
-    text-decoration: none; }
-  .grid__card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background: #0082e6;
-    color: #FFEBCD;
-    text-align: center;
-    text-decoration: none; }
-    .grid__card:hover {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      background: #dd31dd;
-      color: #FFEBCD;
-      text-decoration: none; }
-  .grid__imagen1 {
-    height: 40vh;
-    width: 100%;
-    background: url("../img/svg/diseno_grafico.svg");
-    margin: 0.5rem 0;
-    background-position: center;
-    background-size: cover; }
-  .grid__imagen2 {
-    height: 40vh;
-    width: 100%;
-    background: url("../img/svg/diseno.svg");
-    margin: 0.5rem 0;
-    background-position: center;
-    background-size: cover; }
-  .grid__imagen3 {
-    height: 40vh;
-    width: 100%;
-    background: url("../img/svg/marketing.svg");
-    margin: 0.5rem 0;
-    background-position: center;
-    background-size: cover; }
-  .grid__imagen4 {
-    height: 40vh;
-    width: 100%;
-    background: url("../img/svg/rediseno.svg");
-    margin: 0.5rem 0;
-    background-position: center;
-    background-size: cover; }
-  .grid__imagen5 {
-    height: 40vh;
-    width: 100%;
-    background: url("../img/svg/seo.svg");
-    margin: 0.5rem 0;
-    background-position: center;
-    background-size: cover; }
-  .grid__imagen6 {
-    height: 40vh;
-    width: 100%;
-    background: url("../img/svg/shopping.svg");
-    margin: 0.5rem 0;
-    background-position: center;
-    background-size: cover; }
+.grid__imagen1 {
+  /* mixin propiedades imagenes tarjetas */
+  height: 40vh;
+  width: 100%;
+  margin: 0.5rem 0;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../img/svg/diseno_grafico.svg"); }
+
+.grid__imagen2 {
+  /* mixin propiedades imagenes tarjetas */
+  height: 40vh;
+  width: 100%;
+  margin: 0.5rem 0;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../img/svg/diseno.svg"); }
+
+.grid__imagen3 {
+  /* mixin propiedades imagenes tarjetas */
+  height: 40vh;
+  width: 100%;
+  margin: 0.5rem 0;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../img/svg/marketing.svg"); }
+
+.grid__imagen4 {
+  /* mixin propiedades imagenes tarjetas */
+  height: 40vh;
+  width: 100%;
+  margin: 0.5rem 0;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../img/svg/rediseno.svg"); }
+
+.grid__imagen5 {
+  /* mixin propiedades imagenes tarjetas */
+  height: 40vh;
+  width: 100%;
+  margin: 0.5rem 0;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../img/svg/seo.svg"); }
+
+.grid__imagen6 {
+  /* mixin propiedades imagenes tarjetas */
+  height: 40vh;
+  width: 100%;
+  margin: 0.5rem 0;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../img/svg/shopping.svg"); }
+
+.grid__container {
+  /*propiedades tarjetas servicios*/
+  display: grid;
+  grid-gap: 1rem;
+  margin: 1rem;
+  background-color: #3A3030;
+  text-decoration: none;
+  padding: 0.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr; }
+
+.grid__container2 {
+  /*propiedades tarjetas servicios*/
+  display: grid;
+  grid-gap: 1rem;
+  margin: 1rem;
+  background-color: #3A3030;
+  text-decoration: none;
+  grid-template-columns: repeat(2, 1fr); }
+
+.grid__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #0082e6;
+  color: #FFEBCD;
+  text-align: center;
+  text-decoration: none; }
+  .grid__card:hover {
+    background: #dd31dd; }
 
 @media (max-width: 1000px) {
-  .grid__container {
+  .grid .grid__container {
     display: grid;
     grid-gap: 1rem;
-    grid-template-columns: 1fr 1fr;
-    margin: 1rem; }
-  .grid__container2 {
+    margin: 1rem;
+    background-color: #3A3030;
+    text-decoration: none;
+    grid-template-columns: 1fr 1fr; }
+  .grid .grid__container2 {
     display: grid;
     grid-gap: 1rem;
-    grid-template-columns: 1fr;
-    margin: 1rem; } }
+    margin: 1rem;
+    background-color: #3A3030;
+    text-decoration: none;
+    grid-template-columns: 1fr; } }
 
 @media (max-width: 600px) {
-  .grid__container {
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: 1fr;
-    margin: 1rem; } }
-
-@media (max-width: 450px) {
-  .grid__container {
-    width: 100%;
+  .grid .grid__container {
     display: grid;
     grid-gap: 1rem;
-    grid-template-columns: 1fr;
-    margin: 0rem; } }
+    margin: 1rem;
+    background-color: #3A3030;
+    text-decoration: none;
+    grid-template-columns: 1fr; } }
+
+@media (max-width: 450px) {
+  .grid .grid__container {
+    display: grid;
+    grid-gap: 1rem;
+    margin: 1rem;
+    background-color: #3A3030;
+    text-decoration: none;
+    grid-template-columns: 1fr; } }
 
 /*PROPIEDADES GRID SIN BOOTSTRAP*/
 /*/////////////////////// PROPIEDADES iframes responsive ////////////////////////////////////////////*/
@@ -321,9 +334,8 @@ body {
     color: #FFEBCD;
     text-decoration: none;
     align-content: center; }
-  .pie__vinculo:hover {
-    color: #dd31dd;
-    text-decoration: none; }
+    .pie__vinculo:hover {
+      color: #dd31dd; }
   .pie > hr {
     height: 2px;
     background-color: #FFEBCD;

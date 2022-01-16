@@ -1,137 +1,128 @@
 /*/////////////////////// PROPIEDADES GRID Y FLEX ////////////////////////////////////////////*/
 
-/* TARJETAS SERVICIOS */
+
 * a {
     text-decoration:none;
 }
+
+@mixin container-grid { /*propiedades tarjetas servicios*/
+    display: grid;
+    grid-gap: 1rem;
+    margin:1rem;
+    background-color: $fondo;
+    text-decoration:none;
+}
+
+
+@mixin imagen-grid { /* mixin propiedades imagenes tarjetas */
+    height: 40vh;
+    width: 100%;
+    margin: 0.5rem 0;
+    background-position: center;
+    background-size:cover;
+}
+
+$imagen-card: ( /*mapa direcciones de imagenes de tarjetas servicios*/
+card1: url("../img/svg/diseno_grafico.svg"),
+card2: url("../img/svg/diseno.svg"),
+card3: url("../img/svg/marketing.svg"),
+card4: url("../img/svg/rediseno.svg"),
+card5: url("../img/svg/seo.svg"),
+card6: url("../img/svg/shopping.svg"),
+);
+
 .grid {
-  /* PROPIEDADES CONTENEDORES GRID */  
+  &__imagen1 {
+  @include imagen-grid;
+  background-image: map-get($imagen-card,card1);
+  }
+  &__imagen2 {
+    @include imagen-grid;
+    background-image: map-get($imagen-card,card2);
+  }
+  &__imagen3 {
+    @include imagen-grid;
+    background-image: map-get($imagen-card,card3);
+  }
+  &__imagen4 {
+    @include imagen-grid;
+    background-image: map-get($imagen-card,card4);
+  }
+  &__imagen5 {
+    @include imagen-grid;
+    background-image: map-get($imagen-card,card5);
+  }
+  &__imagen6 {
+    @include imagen-grid;
+    background-image: map-get($imagen-card,card6);
+  }
   &__container {
-      display: grid;
-      grid-gap: 1rem;
+      @include container-grid;
       padding: 0.5rem;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: 1fr 1fr;
-      margin:1rem;
-      background-color: $fondo;
-      text-decoration:none;
-  }
-    
-  &__container2 {
-      display: grid;
-      grid-gap: 1rem;
-      grid-template-columns: repeat(2, 1fr);
-      margin:1rem;
-      background-color: $fondo;
-      text-decoration:none;
-  }
-  /* PROPIEDADES TARJETAS GRID */  
-  &__card {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      background: $celeste;
-      color:$fondoclaro;
-      text-align: center;
-      text-decoration:none;
-  
-      &:hover {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          background: $rosa;
-          color:$fondoclaro;
-          text-decoration:none;
-      }
-  }
-
-  /* IMAGENES TARJETAS GRID */  
-  &__imagen1 {
-    height: 40vh;
-    width: 100%;
-    background: url("../img/svg/diseno_grafico.svg");
-    margin: 0.5rem 0;
-    background-position: center;
-    background-size:cover;
-  }
-    
-  &__imagen2 {
-    height: 40vh;
-    width: 100%;
-    background: url("../img/svg/diseno.svg");
-    margin: 0.5rem 0;
-    background-position: center;
-    background-size:cover;
-  }
-  
-  &__imagen3 {
-    height: 40vh;
-    width: 100%;
-    background: url("../img/svg/marketing.svg");
-    margin: 0.5rem 0;
-    background-position: center;
-    background-size:cover;
-  }
-  
-  &__imagen4 {
-    height: 40vh;
-    width: 100%;
-    background: url("../img/svg/rediseno.svg");
-    margin: 0.5rem 0;
-    background-position: center;
-    background-size:cover;
     }
-  
-  &__imagen5 {
-    height: 40vh;
-    width: 100%;
-    background: url("../img/svg/seo.svg");
-    margin: 0.5rem 0;
-    background-position: center;
-    background-size:cover;
-  }
-  
-  &__imagen6 {
-    height: 40vh;
-    width: 100%;
-    background: url("../img/svg/shopping.svg");
-    margin: 0.5rem 0;
-    background-position: center;
-    background-size:cover;
-  }
+    &__container2 {
+    @include container-grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+    &__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: $celeste;
+        color:$fondoclaro;
+        text-align: center;
+        text-decoration:none;
+        &:hover {
+        background: $rosa;
+    }
+
 }
  
 @media (max-width: 1000px){
-    .grid__container {
-      display: grid;
-      grid-gap: 1rem;
-      grid-template-columns: 1fr 1fr;
-      margin:1rem;
+  @mixin container-grid {
+    display: grid;
+    grid-gap: 1rem;
+    margin:1rem;
+    background-color: $fondo;
+    text-decoration:none;
     }
-    
+    .grid__container {
+      @include container-grid;
+      grid-template-columns: 1fr 1fr;
+    }
     .grid__container2 {
-      display: grid;
-      grid-gap: 1rem;
+      @include container-grid;
       grid-template-columns: 1fr;
-      margin:1rem;
     }
 }
 
 @media (max-width: 600px){
+  @mixin container-grid {
+    display: grid;
+    grid-gap: 1rem;
+    margin:1rem;
+    background-color: $fondo;
+    text-decoration:none;
+    }
     .grid__container {
-      display: grid;
-      grid-gap: 2rem;
+      @include container-grid;
       grid-template-columns: 1fr;
-      margin:1rem;
     }
 }
   
 @media (max-width: 450px) {
-     .grid__container {
-      width:100%;
-      display: grid;
-      grid-gap: 1rem;
-      grid-template-columns: 1fr;
-      margin:0rem;
+  @mixin container-grid {
+    display: grid;
+    grid-gap: 1rem;
+    margin:1rem;
+    background-color: $fondo;
+    text-decoration:none;
     }
+  .grid__container {
+    @include container-grid;
+    grid-template-columns: 1fr;
+    }
+  } 
 }

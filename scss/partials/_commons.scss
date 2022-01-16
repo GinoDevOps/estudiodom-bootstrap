@@ -69,29 +69,30 @@ body {
 
 /*SEPARADORES*/
 
-.separador {
+.separador { /*EXTEND*/
     display:flex;
     height: 8vh;
     width:auto;
-
     &--chico {
-        display:flex;
         height: 5vh;
-        width:auto;
+    }
+    &--grande {
+        height:10vh;
     }
 }
 
 /*COMPARTIR EN REDES SOCIALES*/
 
-.compartir {
+@mixin base-boton-compartir {
     font-size: 2rem;
-    padding:0.2rem;
-    color: $fondoclaro;
+    padding: 0.2rem;
     text-align: center;
+}
 
+.compartir {
+    @include base-boton-compartir;
+    color: $fondoclaro;
     &:hover{
-        font-size: 2rem;
-        padding:0.2rem;
         color: $celeste;
     }
 }
@@ -99,10 +100,8 @@ body {
 /* ICONOS REDES SOCIALES PIE DE PAGINA */
 
 .icono__vinculo {
-    font-size: 3rem;
-    padding:0.2rem;
+    @include base-boton-compartir;
     color: $fondoclaro;
-
     &:hover{
     color: $rosa;
     }

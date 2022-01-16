@@ -8,16 +8,13 @@
     color:$fondoclaro;
     text-decoration: none;
     text-align:center;
-    
     &__vinculo {
       color:$fondoclaro;
       text-decoration: none;
       align-content: center;
-    }
-
-    &__vinculo:hover{
-      color:$rosa;
-      text-decoration: none;
+      &:hover{
+        color:$rosa;
+      }
     }
     
     &>hr {
