@@ -1,221 +1,263 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="Estudio de desarrollo web, grafica y marketing">
-    <meta name="keywords" content="DISEÑO WEB, WEB, DESARROLLO WEB, ESTUDIO, DESIGN, MARKETING">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/bootstrap.css" >
-    <link rel="stylesheet" href="./icons/bootstrap-icons.css">
-    <link rel="shortcut icon" href="./img/Icono.webp" type="image/x-icon">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Estudio DOM - Inicio</title>
-  </head>
-  <body id="arriba">
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img class="logotipo" src="./img/Logo.png" alt="logo" srcset=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item text-center itembarra">
-              <a class="nav-link active h5" aria-current="page" href="#"><i class="bi bi-house-door-fill"></i> Inicio</a>
-            </li>
-            <li class="nav-item text-center itembarra">
-              <a class="nav-link h5" aria-current="page" href="./pages/nosotros.html"><i class="bi bi-person-square"></i> Nosotros</a>
-            </li>
-            <li class="nav-item text-center itembarra">
-              <a class="nav-link h5" aria-current="page" href="./pages/servicios.html"><i class="bi bi-person-workspace"></i> Planes</a>
-            </li>
-            <li class="nav-item text-center itembarra">
-              <a class="nav-link h5" aria-current="page" href="./pages/proyectos.html"><i class="bi bi-briefcase-fill"></i> Proyectos</a>
-            </li>
-            <li class="nav-item text-center itembarra">
-              <a class="nav-link h5" aria-current="page" href="./pages/blog.html"><i class="bi bi-newspaper"></i> Blog</a>
-            </li>
-            <li class="nav-item text-center itembarra">
-              <a class="nav-link h5" aria-current="page" href="./pages/contacto.html"><i class="bi bi-envelope-fill"></i> Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-<!--CARROUSEL-->
-<div class="separador mb-6"></div>
-<div id="myCarousel" class="carousel slide mt-6 py-1 mb-0" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./img/svg/presencia.svg" class="d-block img-center" alt="tu nueva presencia en internet">
-      <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#3A3030"/></svg>
-      <div class="container">
-        <div class="carousel-caption text-center d-flex flex-column align-items-center">
-          <h2 class="display-1 textogradiente">TU NUEVA PRESENCIA DIGITAL</h2>
-          <h3 class="display-5">DESDE LA IDEA HASTA LA NUBE</h3>
-          <p data-aos="fade-up" data-aos-anchor-placement="center-bottom"><a class="btn btn-lg btn-primary" href="./pages/servicios.html">Tenemos planes a medida!</a></p>
-        </div>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Estudio de desarrollo web, grafica y marketing"> 
+  <meta name="keywords" content="DISEÑO WEB, WEB, DESARROLLO WEB, ESTUDIO, DESIGN, MARKETING">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./icons/bootstrap-icons.css">
+  <link rel="shortcut icon" href="./img/Icono.webp" type="image/x-icon">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Estudio DOM - Inicio</title>
+</head>
+
+<body id="arriba"> <!--MARCADOR INICIO-->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">  <!--BARRA DE NAVEGACIÓN-->
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img class="logotipo" src="./img/Logo.png" alt="logo" srcset=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item text-center itembarra">
+            <a class="nav-link active h5" aria-current="page" href="#"><i class="bi bi-house-door-fill"></i> Inicio</a>
+          </li>
+          <li class="nav-item text-center itembarra">
+            <a class="nav-link h5" aria-current="page" href="./pages/nosotros.html"><i class="bi bi-person-square"></i>
+              Nosotros</a>
+          </li>
+          <li class="nav-item text-center itembarra">
+            <a class="nav-link h5" aria-current="page" href="./pages/servicios.html"><i
+                class="bi bi-person-workspace"></i> Planes</a>
+          </li>
+          <li class="nav-item text-center itembarra">
+            <a class="nav-link h5" aria-current="page" href="./pages/proyectos.html"><i
+                class="bi bi-briefcase-fill"></i> Proyectos</a>
+          </li>
+          <li class="nav-item text-center itembarra">
+            <a class="nav-link h5" aria-current="page" href="./pages/blog.html"><i class="bi bi-newspaper"></i> Blog</a>
+          </li>
+          <li class="nav-item text-center itembarra">
+            <a class="nav-link h5" aria-current="page" href="./pages/contacto.html"><i class="bi bi-envelope-fill"></i>
+              Contacto</a>
+          </li>
+        </ul>
       </div>
     </div>
-    <div class="carousel-item">
-      <img src="./img/svg/imagen.svg" class="d-block img-center" alt="tu imagen en internet">
-      <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#3A3030"/></svg>
-      <div class="container">
-        <div class="carousel-caption text-center d-flex flex-column align-items-center">
-          <h2 class="display-1 textogradiente">TU IMAGEN EN INTERNET</h2>
-          <h3 class="display-5">EN EL SIGUIENTE NIVEL</h3>
-          <p data-aos="fade-up" data-aos-anchor-placement="center-bottom"><a class="btn btn-lg btn-primary" href="./pages/contacto.html">Contáctanos</a></p>
-        </div>
-      </div>
+  </nav>
+
+  <div class="separador mb-6"></div>
+  <div id="myCarousel" class="carousel slide mt-6 py-1 mb-0" data-bs-ride="carousel"> <!--CARROUSEL-->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-    <div class="carousel-item">
-      <img src="./img/svg/soluciones.svg" class="d-block img-center" alt="...">
-      <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#3A3030"/></svg>
-      <div class="container">
-        <div class="carousel-caption text-center d-flex flex-column align-items-center">
-          <h2 class="display-1 textogradiente">SOLUCIONES TECNOLÓGICAS</h2>
-          <h3 class="display-5">A LA MEDIDA DE TUS NECESIDADES</h3>
-          <p data-aos="fade-up" data-aos-anchor-placement="center-bottom"><a class="btn btn-lg btn-primary" href="./pages/proyectos.html">Mira nuestros trabajos!</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-<!-- QUIENES SOMOS -->
-<h2 class=" mt-5 mb-5 display-3 text-center text-white textogradiente">¡TRABAJEMOS JUNTOS!</h2>
-<!-- ACORDION -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/svg/presencia.svg" class="d-block img-center" alt="tu nueva presencia en internet">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="#3A3030" />
+        </svg>
         <div class="container">
-          <div class="row">
-            <div class="col">
-              <div class="accordion bg-dark text-white" id="accordionExample">
-                <div class="accordion-item">
-                  <h3 class="accordion-header" id="headingOne">       
-                    <button class="accordion-button bg-dark text-white text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><span class="display-6">¿QUIÉNES SOMOS?</span></button>
-                  </h3>
-                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body fondo_corporativo">
-                      <h5>
-                        Somos un grupo de profesionales dedicados a las tecnologías web y mobile. Nos mantenemos actualizados para contar con las herramientas necesarias para alcanzar los mejores resultados y con ello, lograr la satisfacción de nuestros clientes.<hr>
-                        <a class="btn btn-lg btn-primary d-block" href="./pages/nosotros.html">Conocer más sobre nosotros</a>
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h3 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><span class="display-6">TRABAJAMOS A DISTANCIA</span></button>
-                  </h3>
-                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                    <div class="accordion-body fondo_corporativo">
-                      <h5>
-                        Tenemos nuestro espacio creatívo y estamos orgullosos de contar con el mismo, pero entendemos que para contar con los mejores talentos, no podemos esperar encontrarlos al cruzar la calle. Por ello, nos hemos adaptado para trabajar en forma integral con metodologías diversas que nos permiten apoyar a nuestros clientes alrededor del mundo, trabajando incluso, desde la comodidad de nuestros hogares.<hr>
-                        <a class="btn btn-lg btn-primary d-block" href="./pages/nosotros.html">Conocer más sobre nosotros</a>
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h3 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><span class="display-6">¿PLANES A MEDIDA?</span></button>
-                  </h3>
-                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                    <div class="accordion-body fondo_corporativo">
-                      <h5>
-                        En base a la experiencia acumulada con los años de trayectoria asesorando y brindando diveresos servicios a nuestros clientes, hemos desarrollado tres paquetes de servicios (planes), que se enfocan en cubrir plenamente y al mejor precio del mercado, las necesidades de los perfiles mas frecuentes de clientes. <hr>
-                        <a class="btn btn-lg btn-primary d-block" href="./pages/servicios.html">Conocer más sobre los planes a medida</a>
-                      </h5>
-                    </div>
-                  </div>
-                </div>
+          <div class="carousel-caption text-center d-flex flex-column align-items-center">
+            <h2 class="display-1 textogradiente">TU NUEVA PRESENCIA DIGITAL</h2>
+            <h3 class="display-5">DESDE LA IDEA HASTA LA NUBE</h3>
+            <p data-aos="fade-up" data-aos-anchor-placement="center-bottom"><a class="btn btn-lg btn-primary"
+                href="./pages/servicios.html">Tenemos planes a medida!</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/svg/imagen.svg" class="d-block img-center" alt="tu imagen en internet">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="#3A3030" />
+        </svg>
+        <div class="container">
+          <div class="carousel-caption text-center d-flex flex-column align-items-center">
+            <h2 class="display-1 textogradiente">TU IMAGEN EN INTERNET</h2>
+            <h3 class="display-5">EN EL SIGUIENTE NIVEL</h3>
+            <p data-aos="fade-up" data-aos-anchor-placement="center-bottom"><a class="btn btn-lg btn-primary"
+                href="./pages/contacto.html">Contáctanos</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/svg/soluciones.svg" class="d-block img-center" alt="...">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="#3A3030" />
+        </svg>
+        <div class="container">
+          <div class="carousel-caption text-center d-flex flex-column align-items-center">
+            <h2 class="display-1 textogradiente">SOLUCIONES TECNOLÓGICAS</h2>
+            <h3 class="display-5">A LA MEDIDA DE TUS NECESIDADES</h3>
+            <p data-aos="fade-up" data-aos-anchor-placement="center-bottom"><a class="btn btn-lg btn-primary"
+                href="./pages/proyectos.html">Mira nuestros trabajos!</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- QUIENES SOMOS -->
+  <h2 class=" mt-5 mb-5 display-3 text-center text-white textogradiente">¡TRABAJEMOS JUNTOS!</h2>
+  <!-- ACORDEON -->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="accordion bg-dark text-white" id="accordionExample">
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingOne">
+              <button class="accordion-button bg-dark text-white text-center" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><span
+                  class="display-6">¿QUIÉNES SOMOS?</span></button>
+            </h3>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body fondo_corporativo">
+                <h5>
+                  Somos un grupo de profesionales dedicados a las tecnologías web y mobile. Nos mantenemos actualizados
+                  para contar con las herramientas necesarias para alcanzar los mejores resultados y con ello, lograr la
+                  satisfacción de nuestros clientes.
+                  <hr>
+                  <a class="btn btn-lg btn-primary d-block" href="./pages/nosotros.html">Conocer más sobre nosotros</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><span
+                  class="display-6">TRABAJAMOS A DISTANCIA</span></button>
+            </h3>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body fondo_corporativo">
+                <h5>
+                  Tenemos nuestro espacio creatívo y estamos orgullosos de contar con el mismo, pero entendemos que para
+                  contar con los mejores talentos, no podemos esperar encontrarlos al cruzar la calle. Por ello, nos
+                  hemos adaptado para trabajar en forma integral con metodologías diversas que nos permiten apoyar a
+                  nuestros clientes alrededor del mundo, trabajando incluso, desde la comodidad de nuestros hogares.
+                  <hr>
+                  <a class="btn btn-lg btn-primary d-block" href="./pages/nosotros.html">Conocer más sobre nosotros</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><span
+                  class="display-6">¿PLANES A MEDIDA?</span></button>
+            </h3>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body fondo_corporativo">
+                <h5>
+                  En base a la experiencia acumulada con los años de trayectoria asesorando y brindando diveresos
+                  servicios a nuestros clientes, hemos desarrollado tres paquetes de servicios (planes), que se enfocan
+                  en cubrir plenamente y al mejor precio del mercado, las necesidades de los perfiles mas frecuentes de
+                  clientes.
+                  <hr>
+                  <a class="btn btn-lg btn-primary d-block" href="./pages/servicios.html">Conocer más sobre los planes a
+                    medida</a>
+                </h5>
               </div>
             </div>
           </div>
         </div>
-  
-<!-- QUÉ OFRECEMOS -->
-<h2 class="mt-5 mb-5 display-3 text-center text-white pt-3 textogradiente">¿QUÉ OFRECEMOS?</h2>
-<!--TARJETAS SERVICIOS-->
-<div class="grid__container">
-  <a href="./pages/nosotros.html">
-      <div class="grid__card rounded-lg-3">
-      <div class="grid__imagen1"></div>
-      <h2>Diseño Gráfico</h2>
-      <h5>Tu marca gráfica reflejando tu identidad</h5>
       </div>
-  </a>
-  <a href="./pages/nosotros.html">
-      <div class="grid__card rounded-lg-3">
-      <div class="grid__imagen2"></div>
-      <h2>Diseño Web</h2>
-      <h5>Posee una presencia en el mundo digital.</h5>
-      </div>
-  </a>
-  <a href="./pages/nosotros.html">
-      <div class="grid__card rounded-lg-3">
-      <div class="grid__imagen3"></div>
-      <h2>Marketing Digital</h2>
-      <h5>Llevaremos tu marca a los oidos de todos.</h5>
-      </div>
-  </a>
-  <a href="./pages/nosotros.html">
-      <div class="grid__card rounded-lg-3">
-      <div class="grid__imagen4"></div>
-      <h2>Rediseño Web</h2>
-      <h5>Tu antigua web adaptada a nuestros tiempos</h5>
-      </div>
-  </a>
-  <a href="./pages/nosotros.html">
-      <div class="grid__card rounded-lg-3">
-      <div class="grid__imagen5"></div>
-      <h2>Optimización SEO</h2>
-      <h5>Tu negocio en la primera página de búsqueda</h5>
-      </div>
-  </a>
-  <a href="./pages/nosotros.html">
-      <div class="grid__card rounded-lg-3">
-      <div class="grid__imagen6"></div>
-      <h2>Sitios de Venta Online</h2>
-      <h5>Convierte a todo el mundo en tu mejor cliente.</h5>
-      </div>
-  </a>
-</div>
+    </div>
+  </div>
 
-<!--FOOTER-->
-    <footer class="pie">
-      <div>
-          <a target="_blank" href="https://www.whatsapp.com" class="icono__vinculo"><i class="bi bi-whatsapp"></i></a>
-          <a target="_blank" href="https://github.com" class="icono__vinculo"><i class="bi bi-github"></i></a>
-          <a target="_blank" href="https://www.facebook.com" class="icono__vinculo"><i class="bi bi-facebook"></i></a>
-          <a target="_blank" href="https://twitter.com" class="icono__vinculo"><i class="bi bi-twitter"></i></a>
-          <a target="_blank" href="https://www.google.com" class="icono__vinculo"><i class="bi bi-google"></i></a>
+  <!-- QUÉ OFRECEMOS -->
+  <h2 class="mt-5 mb-5 display-3 text-center text-white pt-3 textogradiente">¿QUÉ OFRECEMOS?</h2>
+  <!--TARJETAS SERVICIOS-->
+  <div class="grid__container">
+    <a href="./pages/nosotros.html">
+      <div class="grid__card rounded-lg-3">
+        <div class="grid__imagen1"></div>
+        <h2>Diseño Gráfico</h2>
+        <h5>Tu marca gráfica reflejando tu identidad</h5>
       </div>
-      <div>
-          <a class="pie__vinculo"  href="#">Inicio</a></td>
-          <a class="pie__vinculo"  href="./pages/nosotros.html">Nosotros</a>
-          <a class="pie__vinculo"  href="./pages/proyectos.html">Proyectos</a>
-          <a class="pie__vinculo"  href="./pages/servicios.html">Planes</a>
-          <a class="pie__vinculo"  href="./pages/blog.html">Blog</a>
-          <a class="pie__vinculo"  href="./pages/contacto.html">Contacto</a>
+    </a>
+    <a href="./pages/nosotros.html">
+      <div class="grid__card rounded-lg-3">
+        <div class="grid__imagen2"></div>
+        <h2>Diseño Web</h2>
+        <h5>Posee una presencia en el mundo digital.</h5>
       </div>
-      <hr>
-      <div class="pie__copy">
-        Copyright 2021 - Jorge Angel Paez | <a class="pie__vinculo" href="#arriba">Ir arriba</a>
+    </a>
+    <a href="./pages/nosotros.html">
+      <div class="grid__card rounded-lg-3">
+        <div class="grid__imagen3"></div>
+        <h2>Marketing Digital</h2>
+        <h5>Llevaremos tu marca a los oidos de todos.</h5>
       </div>
-    </footer>
-<!--SCRIPT DE BOOTSTRAP 5 (NO CAMBIAR NI BORRAR)-->
-    <script src="./scripts/boot-js/bootstrap.bundle.js"></script>
-  </body>
+    </a>
+    <a href="./pages/nosotros.html">
+      <div class="grid__card rounded-lg-3">
+        <div class="grid__imagen4"></div>
+        <h2>Rediseño Web</h2>
+        <h5>Tu antigua web adaptada a nuestros tiempos</h5>
+      </div>
+    </a>
+    <a href="./pages/nosotros.html">
+      <div class="grid__card rounded-lg-3">
+        <div class="grid__imagen5"></div>
+        <h2>Optimización SEO</h2>
+        <h5>Tu negocio en la primera página de búsqueda</h5>
+      </div>
+    </a>
+    <a href="./pages/nosotros.html">
+      <div class="grid__card rounded-lg-3">
+        <div class="grid__imagen6"></div>
+        <h2>Sitios de Venta Online</h2>
+        <h5>Convierte a todo el mundo en tu mejor cliente.</h5>
+      </div>
+    </a>
+  </div>
+
+  <!--FOOTER-->
+  <footer class="pie">
+    <div>
+      <a target="_blank" href="https://www.whatsapp.com" class="icono__vinculo"><i class="bi bi-whatsapp"></i></a>
+      <a target="_blank" href="https://github.com" class="icono__vinculo"><i class="bi bi-github"></i></a>
+      <a target="_blank" href="https://www.facebook.com" class="icono__vinculo"><i class="bi bi-facebook"></i></a>
+      <a target="_blank" href="https://twitter.com" class="icono__vinculo"><i class="bi bi-twitter"></i></a>
+      <a target="_blank" href="https://www.google.com" class="icono__vinculo"><i class="bi bi-google"></i></a>
+    </div>
+    <div>
+      <a class="pie__vinculo" href="#">Inicio</a></td>
+      <a class="pie__vinculo" href="./pages/nosotros.html">Nosotros</a>
+      <a class="pie__vinculo" href="./pages/proyectos.html">Proyectos</a>
+      <a class="pie__vinculo" href="./pages/servicios.html">Planes</a>
+      <a class="pie__vinculo" href="./pages/blog.html">Blog</a>
+      <a class="pie__vinculo" href="./pages/contacto.html">Contacto</a>
+    </div>
+    <hr>
+    <div class="pie__copy">
+      Copyright 2021 - Jorge Angel Paez | <a class="pie__vinculo" href="#arriba">Ir arriba</a>
+    </div>
+  </footer>
+  <!--SCRIPT DE BOOTSTRAP 5 (NO CAMBIAR NI BORRAR)-->
+  <script src="./scripts/boot-js/bootstrap.bundle.js"></script>
+</body>
+
 </html>

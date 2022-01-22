@@ -1,339 +1,356 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="Estudio de desarrollo web, grafica y marketing">
-    <meta name="keywords" content="DISEÑO WEB, WEB, DESARROLLO WEB, ESTUDIO, DESIGN, MARKETING">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/bootstrap.css" >
-    <link rel="stylesheet" href="../icons/bootstrap-icons.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <link rel="shortcut icon" href="../img/Icono.webp" type="image/x-icon">
-    <link rel="stylesheet" href="../css/main.css">
-    <title>Estudio DOM - PLAN BÁSICO</title>
-  </head>
-  <body id="arriba">
-    <script>
-      AOS.init();
-    </script>    
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html"><img class="logotipo" src="../img/Logo.png" alt="logo" srcset=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item text-center itembarra">
-                  <a class="nav-link h5" aria-current="page" href="../index.html"><i class="bi bi-house-door-fill"></i> Inicio</a>
-                </li>
-                <li class="nav-item text-center itembarra">
-                  <a class="nav-link h5" aria-current="page" href="nosotros.html"><i class="bi bi-person-square"></i> Nosotros</a>
-                </li>
-                <li class="nav-item text-center itembarra">
-                  <a class="nav-link h5" aria-current="page" href="servicios.html"><i class="bi bi-person-workspace"></i> Planes</a>
-                </li>
-                <li class="nav-item text-center itembarra">
-                  <a class="nav-link h5" aria-current="page" href="proyectos.html"><i class="bi bi-briefcase-fill"></i> Proyectos</a>
-                </li>
-                <li class="nav-item text-center itembarra">
-                  <a class="nav-link h5" aria-current="page" href="blog.html"><i class="bi bi-newspaper"></i> Blog</a>
-                </li>
-                <li class="nav-item text-center itembarra">
-                  <a class="nav-link active h5" aria-current="page" href="contacto.html"><i class="bi bi-envelope-fill"></i> Contacto</a>
-                </li>
-              </ul>
-        </div>
-      </div>
-    </nav>
-<!--FORMULARIO DE PAGO-->
-<div class="separador"></div>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col">
-      <div class="py-5 text-center">
-      <h2 class="display-3 d-flex justify-content-center text-white pt-3  textogradiente">PLAN BÁSICO</h2>
-      <p class="lead text-white">Plan ideal para iniciar la proyección de tu emprendimiento al mundo digital.</p>
-    </div>
-  </div>
-</div>
 
-<div data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="table-responsive">
-    <table class="table text-center text-white">
-      <thead width="auto">
-        <tr>
-          <th></th>
-          <th><p class="encabezado fondo_basico py-3">BÁSICO</p></th>
-          <th><p class="encabezado fondo_profesional py-3">PROFESIONAL</p></th>
-          <th><p class="encabezado fondo_corporativo py-3">CORPORATIVO</p></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row" class="text-start">Hosting y dominio</th>
-          <td><i class="bi bi-check-square-fill"></i></td>
-          <td><i class="bi bi-check-square-fill"></i></td>
-          <td><i class="bi bi-check-square-fill"></i></td>
-        </tr>
-        <tr>
-          <th scope="row" class="text-start">Diseño a medida</th>
-          <td><i class="bi bi-check-square-fill"></i></td>
-          <td><i class="bi bi-check-square-fill"></i></td>
-          <td><i class="bi bi-check-square-fill"></i></td>
-        </tr>
-      </tbody>
-      <tbody>
-        <tr>
-          <th scope="row" class="text-start">Cambios</th>
-          <td>NO</td>
-          <td>2/mes</td>
-          <td><i class="bi bi-check-square-fill"></i></td>
-        </tr>
-        <tr>
-          <th scope="row" class="text-start">Ventas</th>
-          <td></td>
-          <td><i class="bi bi-check-square-fill"></i></td>
-          <td><i class="bi bi-check-square-fill"></i></td>
-        </tr>
-        <tr>
-          <th scope="row" class="text-start">CMS + Panel</th>
-          <td></td>
-          <td><i class="bi bi-check-square-fill"></i></td>
-          <td><i class="bi bi-check-square-fill"></i></td>
-        </tr>
-        <tr>
-          <th scope="row" class="text-start">Soporte 24 Horas</th>
-          <td></td>
-          <td></td>
-          <td><i class="bi bi-check-square-fill"></i></td>
-        </tr>
-      </tbody>
-    </table>
-</div>
-<div class="container-fluid">
-  <div class="row g-5">
-      <div class="col-md-5 col-lg-4 order-md-last">
-        <h4 class="d-flex justify-content-between align-items-center mb-3">
-          <span class="text-primary">Su compra</span>
-          <span class="badge bg-primary rounded-pill">1</span>
-        </h4>
-        <ul class="list-group mb-3">
-          <li class="list-group-item d-flex justify-content-between lh-sm">
-            <div>
-              <h6 class="my-0">Plan Básico</h6>
-              <small class="text-muted">Plan ideal para iniciar la proyección de tu emprendimiento al mundo digital.</small>
-            </div>
-            <span class="text-muted">$2.500</span>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Estudio de desarrollo web, grafica y marketing">
+  <meta name="keywords" content="DISEÑO WEB, WEB, DESARROLLO WEB, ESTUDIO, DESIGN, MARKETING">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../icons/bootstrap-icons.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="shortcut icon" href="../img/Icono.webp" type="image/x-icon">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Estudio DOM - PLAN BÁSICO</title>
+</head>
+
+<body id="arriba"> <!--MARCADOR INICIO-->
+  <!--INICIO SCRIPT AOS (ANIMACIONES)-->
+  <script> 
+    AOS.init();
+  </script>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"> <!--BARRA DE NAVEGACIÓN-->
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html"><img class="logotipo" src="../img/Logo.png" alt="logo" srcset=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item text-center itembarra">
+            <a class="nav-link h5" aria-current="page" href="../index.html"><i class="bi bi-house-door-fill"></i>
+              Inicio</a>
           </li>
-          <li class="list-group-item d-flex justify-content-between bg-light">
-            <div class="text-success">
-              <h6 class="my-0">Promoción primer mes</h6>
-              <small>DESCUENTOCODER</small>
-            </div>
-            <span class="text-success">−$500</span>
+          <li class="nav-item text-center itembarra">
+            <a class="nav-link h5" aria-current="page" href="nosotros.html"><i class="bi bi-person-square"></i>
+              Nosotros</a>
           </li>
-          <li class="list-group-item d-flex justify-content-between">
-            <span>Total (ARS)</span>
-            <strong>$2.000</strong>
+          <li class="nav-item text-center itembarra">
+            <a class="nav-link h5" aria-current="page" href="servicios.html"><i class="bi bi-person-workspace"></i>
+              Planes</a>
+          </li>
+          <li class="nav-item text-center itembarra">
+            <a class="nav-link h5" aria-current="page" href="proyectos.html"><i class="bi bi-briefcase-fill"></i>
+              Proyectos</a>
+          </li>
+          <li class="nav-item text-center itembarra">
+            <a class="nav-link h5" aria-current="page" href="blog.html"><i class="bi bi-newspaper"></i> Blog</a>
+          </li>
+          <li class="nav-item text-center itembarra">
+            <a class="nav-link active h5" aria-current="page" href="contacto.html"><i class="bi bi-envelope-fill"></i>
+              Contacto</a>
           </li>
         </ul>
-  
-        <form class="card p-2">
-          <div class="input-group">
-            <input type="text" class="form-control" placeholder="Cupón descuento">
-            <button type="submit" class="btn btn-secondary">Aplicar</button>
-          </div>
-        </form>
       </div>
-      <div class="col-md-7 col-lg-8  text-white">
-        <h4 class="mb-3 text-white">Datos de facturación</h4>
-        <form class="needs-validation" novalidate>
-          <div class="row g-3">
-            <div class="col-sm-6 text-white">
-              <label for="firstName" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
-              <div class="invalid-feedback">
-                Se requiere un nombre válido.
-              </div>
-            </div>
-  
-            <div class="col-sm-6">
-              <label for="lastName" class="form-label">Apellido</label>
-              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
-              <div class="invalid-feedback">
-                Se requiere un apellido válido.
-              </div>
-            </div>
-  
-            <div class="col-12">
-              <label for="email" class="form-label">Email <span class="text-muted">(Opcional)</span></label>
-              <input type="email" class="form-control" id="email" placeholder="sucorreo@electronico.com">
-              <div class="invalid-feedback">
-                Por favor, ingrese una dirección de e-mail valida para conocer las ultimas novedades.
-              </div>
-            </div>
-  
-            <div class="col-12">
-              <label for="address" class="form-label">Dirección</label>
-              <input type="text" class="form-control" id="address" placeholder="Av. Brown 1554" required>
-              <div class="invalid-feedback">
-                Por favor, ingrese una dirección válida.
-              </div>
-            </div>
-  
-            <div class="col-md-5">
-              <label for="country" class="form-label">País</label>
-              <select class="form-select" id="country" required>
-                <option value="">Seleccione una opción...</option>
-                <option>Argentina</option>
-              </select>
-              <div class="invalid-feedback">
-                Por favor, seleccione su pais.
-              </div>
-            </div>
-  
-            <div class="col-md-4">
-              <label for="state" class="form-label">State</label>
-              <select class="form-select" id="state" required>
-                <option value="">Seleccione una opción...</option>
-                <option>C.A.B.A</option>
-                <option>Pcia. de Buenos Aires</option>
-                <option>Catamarca</option>
-                <option>Chaco</option>
-                <option>Chubut</option>
-                <option>Cordoba</option>
-                <option>Corrientes</option>
-                <option>Entre Rios</option>
-                <option>Formosa</option>
-                <option>Jujuy</option>
-                <option>La Pampa</option>
-                <option>La Rioja</option>
-                <option>Mendoza</option>
-                <option>Misiones</option>
-                <option>Neuquen</option>
-                <option>Rio Negro</option>
-                <option>Salta</option>
-                <option>San Juan</option>
-                <option>San Luis</option>
-                <option>Santa Cruz</option>
-                <option>Santa Fe</option>
-                <option>Santiago del Estero</option>
-                <option>Tierra del Fuego</option>
-                <option>Tucumán</option>
-              </select>
-              <div class="invalid-feedback">
-                Por favor, seleccione su provincia.
-              </div>
-            </div>
-  
-            <div class="col-md-3">
-              <label for="zip" class="form-label">C.P.</label>
-              <input type="text" class="form-control" id="zip" placeholder="8109" required>
-              <div class="invalid-feedback">
-                Se requiere un codigo postal.
-              </div>
-            </div>
-          </div>
-  
-          <hr class="my-4">
-  
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="same-address">
-            <label class="form-check-label" for="same-address">Declaro que la dirección ingresada corresponde a mis datos de facturación</label>
-          </div>
-  
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="save-info">
-            <label class="form-check-label" for="save-info">Guardar mis datos para próximas compras</label>
-          </div>
-  
-          <hr class="my-4">
-  
-          <h4 class="mb-3">Método de pago</h4>
-  
-          <div class="my-3">
-            <div class="form-check">
-              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
-              <label class="form-check-label" for="credit">Tarjeta de Crédito</label>
-            </div>
-            <div class="form-check">
-              <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
-              <label class="form-check-label" for="debit">Tarjeta de Débito</label>
-            </div>
-            <div class="form-check">
-              <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
-              <label class="form-check-label" for="paypal">PayPal</label>
-            </div>
-          </div>
-  
-          <div class="row gy-3">
-            <div class="col-md-6">
-              <label for="cc-name" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="cc-name" placeholder="" required>
-              <small class="text-muted">Nombre impreso en la tarjeta</small>
-              <div class="invalid-feedback">
-                Se requiere el nombre del titular de la tarjeta.
-              </div>
-            </div>
-  
-            <div class="col-md-6">
-              <label for="cc-number" class="form-label">Numero de tarjeta</label>
-              <input type="text" class="form-control" id="cc-number" placeholder="" required>
-              <div class="invalid-feedback">
-                Se requiere el numero de id de la tarjeta.
-              </div>
-            </div>
-  
-            <div class="col-md-3">
-              <label for="cc-expiration" class="form-label">Vencimiento</label>
-              <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
-              <div class="invalid-feedback">
-                Se requiere dato de vencimiento.
-              </div>
-            </div>
-  
-            <div class="col-md-3">
-              <label for="cc-cvv" class="form-label">CVV</label>
-              <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
-              <div class="invalid-feedback">
-                Se requiere codigo de validación de la tarjeta.
-              </div>
-            </div>
-          </div>
-  
-          <hr class="my-4">
-  
-          <button class="w-100 btn btn-primary btn-lg" type="submit">REALIZAR PAGO</button>
-        </form>
+    </div>
+  </nav>
+  <!--FORMULARIO DE PAGO-->
+  <div class="separador"></div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <div class="py-5 text-center">
+          <h2 class="display-3 d-flex justify-content-center text-white pt-3  textogradiente">PLAN BÁSICO</h2>
+          <p class="lead text-white">Plan ideal para iniciar la proyección de tu emprendimiento al mundo digital.</p>
+        </div>
       </div>
-  </div>
-</div>
+    </div>
+
+    <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="table-responsive">
+      <table class="table text-center text-white">
+        <thead width="auto">
+          <tr>
+            <th></th>
+            <th>
+              <p class="encabezado fondo_basico py-3">BÁSICO</p>
+            </th>
+            <th>
+              <p class="encabezado fondo_profesional py-3">PROFESIONAL</p>
+            </th>
+            <th>
+              <p class="encabezado fondo_corporativo py-3">CORPORATIVO</p>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="text-start">Hosting y dominio</th>
+            <td><i class="bi bi-check-square-fill"></i></td>
+            <td><i class="bi bi-check-square-fill"></i></td>
+            <td><i class="bi bi-check-square-fill"></i></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Diseño a medida</th>
+            <td><i class="bi bi-check-square-fill"></i></td>
+            <td><i class="bi bi-check-square-fill"></i></td>
+            <td><i class="bi bi-check-square-fill"></i></td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <th scope="row" class="text-start">Cambios</th>
+            <td>NO</td>
+            <td>2/mes</td>
+            <td><i class="bi bi-check-square-fill"></i></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Ventas</th>
+            <td></td>
+            <td><i class="bi bi-check-square-fill"></i></td>
+            <td><i class="bi bi-check-square-fill"></i></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">CMS + Panel</th>
+            <td></td>
+            <td><i class="bi bi-check-square-fill"></i></td>
+            <td><i class="bi bi-check-square-fill"></i></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Soporte 24 Horas</th>
+            <td></td>
+            <td></td>
+            <td><i class="bi bi-check-square-fill"></i></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="container-fluid">
+      <div class="row g-5">
+        <div class="col-md-5 col-lg-4 order-md-last">
+          <h4 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-primary">Su compra</span>
+            <span class="badge bg-primary rounded-pill">1</span>
+          </h4>
+          <ul class="list-group mb-3">
+            <li class="list-group-item d-flex justify-content-between lh-sm">
+              <div>
+                <h6 class="my-0">Plan Básico</h6>
+                <small class="text-muted">Plan ideal para iniciar la proyección de tu emprendimiento al mundo
+                  digital.</small>
+              </div>
+              <span class="text-muted">$2.500</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between bg-light">
+              <div class="text-success">
+                <h6 class="my-0">Promoción primer mes</h6>
+                <small>DESCUENTOCODER</small>
+              </div>
+              <span class="text-success">−$500</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Total (ARS)</span>
+              <strong>$2.000</strong>
+            </li>
+          </ul>
+
+          <form class="card p-2">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Cupón descuento">
+              <button type="submit" class="btn btn-secondary">Aplicar</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-7 col-lg-8  text-white">
+          <h4 class="mb-3 text-white">Datos de facturación</h4>
+          <form class="needs-validation" novalidate>
+            <div class="row g-3">
+              <div class="col-sm-6 text-white">
+                <label for="firstName" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Se requiere un nombre válido.
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <label for="lastName" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Se requiere un apellido válido.
+                </div>
+              </div>
+
+              <div class="col-12">
+                <label for="email" class="form-label">Email <span class="text-muted">(Opcional)</span></label>
+                <input type="email" class="form-control" id="email" placeholder="sucorreo@electronico.com">
+                <div class="invalid-feedback">
+                  Por favor, ingrese una dirección de e-mail valida para conocer las ultimas novedades.
+                </div>
+              </div>
+
+              <div class="col-12">
+                <label for="address" class="form-label">Dirección</label>
+                <input type="text" class="form-control" id="address" placeholder="Av. Brown 1554" required>
+                <div class="invalid-feedback">
+                  Por favor, ingrese una dirección válida.
+                </div>
+              </div>
+
+              <div class="col-md-5">
+                <label for="country" class="form-label">País</label>
+                <select class="form-select" id="country" required>
+                  <option value="">Seleccione una opción...</option>
+                  <option>Argentina</option>
+                </select>
+                <div class="invalid-feedback">
+                  Por favor, seleccione su pais.
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <label for="state" class="form-label">State</label>
+                <select class="form-select" id="state" required>
+                  <option value="">Seleccione una opción...</option>
+                  <option>C.A.B.A</option>
+                  <option>Pcia. de Buenos Aires</option>
+                  <option>Catamarca</option>
+                  <option>Chaco</option>
+                  <option>Chubut</option>
+                  <option>Cordoba</option>
+                  <option>Corrientes</option>
+                  <option>Entre Rios</option>
+                  <option>Formosa</option>
+                  <option>Jujuy</option>
+                  <option>La Pampa</option>
+                  <option>La Rioja</option>
+                  <option>Mendoza</option>
+                  <option>Misiones</option>
+                  <option>Neuquen</option>
+                  <option>Rio Negro</option>
+                  <option>Salta</option>
+                  <option>San Juan</option>
+                  <option>San Luis</option>
+                  <option>Santa Cruz</option>
+                  <option>Santa Fe</option>
+                  <option>Santiago del Estero</option>
+                  <option>Tierra del Fuego</option>
+                  <option>Tucumán</option>
+                </select>
+                <div class="invalid-feedback">
+                  Por favor, seleccione su provincia.
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <label for="zip" class="form-label">C.P.</label>
+                <input type="text" class="form-control" id="zip" placeholder="8109" required>
+                <div class="invalid-feedback">
+                  Se requiere un codigo postal.
+                </div>
+              </div>
+            </div>
+
+            <hr class="my-4">
+
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="same-address">
+              <label class="form-check-label" for="same-address">Declaro que la dirección ingresada corresponde a mis
+                datos de facturación</label>
+            </div>
+
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="save-info">
+              <label class="form-check-label" for="save-info">Guardar mis datos para próximas compras</label>
+            </div>
+
+            <hr class="my-4">
+
+            <h4 class="mb-3">Método de pago</h4>
+
+            <div class="my-3">
+              <div class="form-check">
+                <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                <label class="form-check-label" for="credit">Tarjeta de Crédito</label>
+              </div>
+              <div class="form-check">
+                <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+                <label class="form-check-label" for="debit">Tarjeta de Débito</label>
+              </div>
+              <div class="form-check">
+                <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                <label class="form-check-label" for="paypal">PayPal</label>
+              </div>
+            </div>
+
+            <div class="row gy-3">
+              <div class="col-md-6">
+                <label for="cc-name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                <small class="text-muted">Nombre impreso en la tarjeta</small>
+                <div class="invalid-feedback">
+                  Se requiere el nombre del titular de la tarjeta.
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <label for="cc-number" class="form-label">Numero de tarjeta</label>
+                <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                <div class="invalid-feedback">
+                  Se requiere el numero de id de la tarjeta.
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <label for="cc-expiration" class="form-label">Vencimiento</label>
+                <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                <div class="invalid-feedback">
+                  Se requiere dato de vencimiento.
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <label for="cc-cvv" class="form-label">CVV</label>
+                <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                <div class="invalid-feedback">
+                  Se requiere codigo de validación de la tarjeta.
+                </div>
+              </div>
+            </div>
+
+            <hr class="my-4">
+
+            <button class="w-100 btn btn-primary btn-lg" type="submit">REALIZAR PAGO</button>
+          </form>
+        </div>
+      </div>
+    </div>
 
 
-<!--FOOTER-->
-<footer class="pie">
-  <div>
-      <a target="_blank" href="https://www.whatsapp.com" class="icono__vinculo"><i class="bi bi-whatsapp"></i></a>
-      <a target="_blank" href="https://github.com" class="icono__vinculo"><i class="bi bi-github"></i></a>
-      <a target="_blank" href="https://www.facebook.com" class="icono__vinculo"><i class="bi bi-facebook"></i></a>
-      <a target="_blank" href="https://twitter.com" class="icono__vinculo"><i class="bi bi-twitter"></i></a>
-      <a target="_blank" href="https://www.google.com" class="icono__vinculo"><i class="bi bi-google"></i></a>
-  </div>
-  <div>
-      <a class="pie__vinculo"  href="../index.html">Inicio</a></td>
-      <a class="pie__vinculo"  href="nosotros.html">Nosotros</a>
-      <a class="pie__vinculo"  href="proyectos.html">Proyectos</a>
-      <a class="pie__vinculo"  href="servicios.html">Planes</a>
-      <a class="pie__vinculo"  href="blog.html">Blog</a>
-      <a class="pie__vinculo"  href="contacto.html">Contacto</a>
-  </div>
-  <hr>
-  <div class="pie__copy">
-    Copyright 2021 - Jorge Angel Paez | <a class="pie__vinculo" href="#arriba">Ir arriba</a>
-  </div>
-</footer>
-<!--SCRIPT DE BOOTSTRAP 5 (NO CAMBIAR NI BORRAR)-->
+    <!--FOOTER-->
+    <footer class="pie">
+      <div>
+        <a target="_blank" href="https://www.whatsapp.com" class="icono__vinculo"><i class="bi bi-whatsapp"></i></a>
+        <a target="_blank" href="https://github.com" class="icono__vinculo"><i class="bi bi-github"></i></a>
+        <a target="_blank" href="https://www.facebook.com" class="icono__vinculo"><i class="bi bi-facebook"></i></a>
+        <a target="_blank" href="https://twitter.com" class="icono__vinculo"><i class="bi bi-twitter"></i></a>
+        <a target="_blank" href="https://www.google.com" class="icono__vinculo"><i class="bi bi-google"></i></a>
+      </div>
+      <div>
+        <a class="pie__vinculo" href="../index.html">Inicio</a></td>
+        <a class="pie__vinculo" href="nosotros.html">Nosotros</a>
+        <a class="pie__vinculo" href="proyectos.html">Proyectos</a>
+        <a class="pie__vinculo" href="servicios.html">Planes</a>
+        <a class="pie__vinculo" href="blog.html">Blog</a>
+        <a class="pie__vinculo" href="contacto.html">Contacto</a>
+      </div>
+      <hr>
+      <div class="pie__copy">
+        Copyright 2021 - Jorge Angel Paez | <a class="pie__vinculo" href="#arriba">Ir arriba</a>
+      </div>
+    </footer>
+    <!--SCRIPT DE BOOTSTRAP 5 (NO CAMBIAR NI BORRAR)-->
     <script src="../scripts/form-validation.js"></script>
     <script src="../scripts/boot-js/bootstrap.bundle.js""></script>
   </body>
