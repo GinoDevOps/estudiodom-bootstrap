@@ -27,5 +27,8 @@
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "fslightbox": "^3.3.1"
   }
 }

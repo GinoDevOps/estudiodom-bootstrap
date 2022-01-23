@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../css/bootstrap.css">
   <link rel="stylesheet" href="../icons/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <link rel="shortcut icon" href="../img/Icono.webp" type="image/x-icon">
@@ -92,25 +93,24 @@
           <h2 class="display-2 text-center mt-2 text-white textogradiente">¿CÓMO TRABAJAMOS?</h2>
           <div class="grid__container2">
             <div class="grid__card py-1 rounded-lg-3">
-              <div class="info__yt">
-                <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js"></script>
-                <script>var lazyLoadInstance = new LazyLoad();</script>
-                <iframe class="iframeyt" src="https://www.youtube.com/embed/U-2DoMV348A" title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen="true" showinfo="0" color="#7431DD" fs="0" iv_load_policy="0"></iframe>
+              <a data-fancybox="video-gallery" data-src="https://www.youtube.com/watch?v=U-2DoMV348A&t">
+                <img  class="img-fluid" src="../img/svg/video.svg">
+              </a>
+              <div width="4rem">
+                <h2>Conócenos</h2>
+                <h5>Obsérvanos crear en nuestro ambiente creativo.</h5>
               </div>
-              <h2>Conócenos</h2>
-              <h5>Obsérvanos crear en nuestro ambiente creativo.</h5>
+              
             </div>
             <div class="grid__card py-1 rounded-lg-3">
-              <div class="info__map">
-                <iframe class="iframemap"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58989.84236724197!2d-58.4668604534951!3d-34.58839137915014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb549081904f5%3A0xd34a305ed3ff487f!2sCoworking%20%26%20Studio!5e0!3m2!1ses!2sar!4v1637782240597!5m2!1ses!2sar"
-                  style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
+              <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58989.84236724197!2d-58.4668604534951!3d-34.58839137915014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb549081904f5%3A0xd34a305ed3ff487f!2sCoworking%20%26%20Studio!5e0!3m2!1ses!2sar!4v1637782240597!5m2!1ses!2sar" data-fancybox data-type="iframe" data-preload="false">
+                <img class="img-fluid" src="../img/svg/mapa.svg">
+              </a>
+              <div width="4rem">
+                <h2>Visítanos</h2>
+                <h5>Ven a nuestro espacio creativo para hablar sobre tu proyecto.</h5>
               </div>
-              <h2>Visítanos</h2>
-              <h5>Ven a nuestro espacio creativo para hablar sobre tu proyecto.</h5>
+              
             </div>
           </div>
         </div>
@@ -134,7 +134,7 @@
         <div class="py-2">
           <h2 class="display-2 text-center mt-2 text-white textogradiente">PRESUPUESTO</h2>
           <h4 class="text-center mt-2 text-white">Puedes ver un modelo de un presupuesto realizado, en donde especificamos al detalle el proceso de desarrollo presupuestado.<h4>
-            <a href="../files/presupuesto-estudiodom.pdf" target="_blank" class="btn btn-outline-primary btn-lg my-1">DESCARGAR PRESUPUESTO MODELO</a>
+            <a data-fancybox data-type="pdf" href="../files/presupuesto-estudiodom.pdf" class="btn btn-outline-primary btn-lg my-1">VER PRESUPUESTO MODELO</a>
         </div>
       </div>
       <div class="b-example-divider"></div>
@@ -162,6 +162,8 @@
       Copyright 2021 - Jorge Angel Paez | <a class="pie__vinculo" href="#arriba">Ir arriba</a>
     </div>
   </footer>
+  <!--SCRIPT DE FANCYBOX (NO CAMBIAR NI BORRAR)-->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
   <!--SCRIPT DE BOOTSTRAP 5 (NO CAMBIAR NI BORRAR)-->
   <script src="../scripts/boot-js/bootstrap.bundle.js""></script>
 </body>
