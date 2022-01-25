@@ -32,3 +32,10 @@ Se ha simulado la identidad de una empresa dedicada al diseño y desarrollo web,
 Se ha utilizado una paleta de colores que se desprende de la identidad de marca de la empresa.
 
 ![paleta de colores sitio](https://giorgiocode.github.io/estudiodom/img/paleta_estudiodom.JPG)
+
+* * *
+
+**Recursos y herramientas utilizadas:**
+HTML5 - CSS3 - BOOTSTRAP 5 - SASS - AOS.JS - FANCYBOX.JS - FORMSPREE
+
+
